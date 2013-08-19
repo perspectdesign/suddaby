@@ -8,6 +8,7 @@
 /* THANKS */
 
     Photography: Jane Rayner Photography, Neil Holmes Photography
+    Gallery Carousel: http://bootsnipp.com/snipps/carousel-extended
 
 /* SITE */
 
