@@ -457,7 +457,29 @@ function get_data($var) {
 			<div class="container">
 				<h2 class="italic">Contact Us</h2>
 				<div class="row">
-					<div class="span9">
+					<div class="span4">
+						<h3>We would love to hear from you</h3>
+						<i class="icon-home icon-2x"></i> <h3>Address</h3>
+						<address>
+							<strong>Dominic Suddaby</strong><br>
+							Coppice House<br>
+							Brigg Road<br>
+							MOORTOWN<br>
+							Lincs<br>
+							LN7 6JA<br>
+						</address>
+						
+						<h4><i class="icon-phone icon-2x"></i> Phone</h4>
+						<address>
+							Tel. 01652 678442
+						</address>
+						
+						<h4><i class="icon-envelope"></i> Email</h4>
+						<address>
+							<a href="mailto:info@dominicsuddaby.co.uk">info@dominicsuddaby.co.uk</a>
+						</address>
+					</div>
+					<div class="span8 formarea">
 						<!-- Contact Form -->
 						<!--<h4 class="required_notification">* Denotes Required Field</h4>-->
 			
@@ -468,32 +490,32 @@ function get_data($var) {
 						    <div class="control-group">
 						    	<label class="control-label" for="name">Name:</label>
 						    	<div class="controls">
-						    		<input class="span4" type="text" name="name" id="name" value="<?php get_data("name"); ?>" placeholder="John Doe" required />
+						    		<input data-toggle="tooltip" title="first tooltip" class="span4" type="text" name="name" id="name" value="<?php get_data("name"); ?>" placeholder="John Doe" required />
 						    	</div>
 						    </div>
 						    <div class="control-group">
 						    	<label class="control-label" for="email">E-mail:</label>
 						    	<div class="controls">
-						    		<input type="email" name="email" id="email" value="<?php get_data("email"); ?>" placeholder="john_doe@example.com" required />
+						    		<input class="span4" type="email" name="email" id="email" value="<?php get_data("email"); ?>" placeholder="john_doe@example.com" required />
 						            <span class="form_hint">Proper format "name@something.com"</span>
 						    	</div>
 						    </div>
-						    <div class="control-group">
+						    <!--<div class="control-group">
 						    	<label class="control-label" for="url">Website URL:</label>
 						    	<div class="controls">
 						    		<input type="url" name="url" id="url" value="<?php get_data("url"); ?>" placeholder="http://johndoe.com" />
 						        	<span class="form_hint">Proper format "http://someaddress.com"</span>
 						    	</div>
-						    </div>
+						    </div>-->
 						    <div class="control-group">
 						    	<label class="control-label" for="comments">Comments:</label>
 						    	<div class="controls">
-						    		<textarea name="comments" id="comments" cols="40" rows="6" required ><?php get_data("comments"); ?></textarea>
+						    		<textarea class="span4" name="comments" id="comments" rows="8" required ><?php get_data("comments"); ?></textarea>
 						    	</div>
 						    </div>
 						    <div class="control-group">
 								<div class="controls">
-									<button id="submit" type="submit" class="btn" name="submit" value="submit" <?php if (isset($disable) && $disable === true) echo ' disabled="disabled"'; ?>>Submit</button>
+									<button id="submit" type="submit" class="btn btn-primary" name="submit" value="submit" <?php if (isset($disable) && $disable === true) echo ' disabled="disabled"'; ?>>Submit</button>
 									<!--<input id="submit" class="submit" type="submit" name="submit" value="Submit" <?php if (isset($disable) && $disable === true) echo ' disabled="disabled"'; ?>>-->
 								</div>
 						    </div>
@@ -507,28 +529,6 @@ function get_data($var) {
 							}
 							?>
 					</div><!-- End span 9 -->
-					<div class="span3">
-						<h2>Address</h2>
-						<i class="icon-home icon-2x"></i>
-						<address>
-							<strong>Dominic Suddaby</strong><br>
-							Coppice House<br>
-							Brigg Road<br>
-							MOORTOWN<br>
-							Lincs<br>
-							LN7 6JA<br>
-						</address>
-						
-						<i class="icon-phone icon-2x"></i>
-						<address>
-							Tel. 01652 678442
-						</address>
-						
-						<i class="icon-envelope icon-2x"></i>
-						<address>
-							<a href="mailto:info@dominicsuddaby.co.uk">info@dominicsuddaby.co.uk</a>
-						</address>
-					</div>
 				</div>
 			</div>
 		</section><!-- End Contact Section -->

@@ -646,15 +646,19 @@ legend + .control-group {
 .form-horizontal {
   // Increase spacing between groups
   .control-group {
-    margin-bottom: @baseLineHeight;
+    margin-bottom: @baseLineHeight * 2;
+	padding: 0 20px 0 20px;
     .clearfix();
   }
   // Float the labels left
   .control-label {
     float: left;
     width: @horizontalComponentOffset - 20;
-    padding-top: 5px;
+    padding-top: 8px;
     text-align: right;
+    font-family: @altFontFamily;
+    font-size: @baseFontSize * 1.5;
+    color: @grayDark;
   }
   // Move over all input controls and content
   .controls {
