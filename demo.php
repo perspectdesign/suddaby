@@ -161,7 +161,7 @@ function get_data($var) {
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </a>
-                    <a class="brand" href="#">Dominic Suddaby Fine Hand Made Walking Sticks</a>
+                    <a class="brand aligncenter" href="#"><h1><span class="italic">Dominic Suddaby</span><br><small>Fine Hand Made Walking Sticks</small></h1></a>
                     <div class="nav-collapse collapse pull-right">
                         <ul class="nav">
                             <li class="active"><a href="#home">Home</a></li>
@@ -557,7 +557,7 @@ function get_data($var) {
 		      if (visible) {
 		        $(this).stop().animate({ opacity: 1 });
 		      } else {
-		        $(this).stop().animate({ opacity: 0 });
+		        /* $(this).stop().animate({ opacity: 0 }); */
 		      }
 		    });
 		  </script>
