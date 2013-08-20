@@ -8,12 +8,35 @@ body {
 }
 
 section {
-	padding: 100px 0 100px 0;
+	padding: 130px 0 75px 0;
+}
+
+/* Header Colours */
+.box1, .box2, .box3, .box4 {
+	padding: 5px 0 0 0;
+	width: 25%;
+	float: left;
+}
+
+.box1 {
+	background: @desk;
+}
+
+.box2 {
+	background: @missu;
+}
+
+.box3 {
+	background: @unripe;
+}
+
+.box4 {
+	background: @wasabi;
 }
 
 /* Section Process  */
 section.process {
-	background: #F00;
+	background: @missu;
 }
 
 .carousel {
@@ -21,7 +44,7 @@ section.process {
 }
 .carousel .carousel-indicators {
   right: auto;
-  top: -30px;
+  top: 0;
   left: 48%;
 }
 .carousel .carousel-indicators li {
@@ -35,7 +58,15 @@ section.process {
 }
 
 .carousel.custom2 {
-  padding: 50px 40px 0 40px;
+  padding: 20px 40px 0 40px;
+  margin-bottom: 0;
+}
+
+.carousel.custom2 p {
+  margin-bottom: 0;
+  font-size: @baseFontSize * 1.2;
+  font-weight: 200;
+  line-height: @baseLineHeight * 1.2;
 }
 .carousel.custom2 .carousel-indicators {
   position: relative;
@@ -130,12 +161,12 @@ section.process {
 
 /* Section Process  */
 section.gallery {
-	background: #0F0;
+	background: @unripe;
 }
 
 /* Section Sundries  */
 section.sundries {
-	background: #388ed0;
+	background: transparent;
 }
 
 section.sundries .intro {
@@ -144,7 +175,7 @@ section.sundries .intro {
 
 /* Section Feedback */
 section.feedback {
-	background: #ecbbf6;
+	background: @desk;
 }
 
 /* Section Contact */
@@ -298,6 +329,6 @@ input.submit:active {
 
 /* Footer */
 footer {
-	background: #FF0;
+	background: @missu;
 	padding: 50px 0 50px 0;
 }

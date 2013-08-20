@@ -2,6 +2,11 @@
 // Variables
 // --------------------------------------------------
 
+// Custom Colours
+@desk:					#9c8964;
+@missu:					#b2bb82;
+@unripe:				#edb241;
+@wasabi:				#7c8103;
 
 // Global values
 // --------------------------------------------------
@@ -38,8 +43,8 @@
 
 // Links
 // -------------------------
-@linkColor:             #08c;
-@linkColorHover:        darken(@linkColor, 15%);
+@linkColor:             @desk;
+@linkColorHover:        @wasabi;
 
 
 // Typography
@@ -49,7 +54,7 @@
 @monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
 
 @baseFontSize:          14px;
-@baseFontFamily:        @serifFontFamily;
+@baseFontFamily:        @sansFontFamily;
 @baseLineHeight:        20px;
 @altFontFamily:         'Dancing Script', cursive;
 
@@ -182,7 +187,7 @@
 
 @navbarHeight:                    40px;
 @navbarBackgroundHighlight:       #ffffff;
-@navbarBackground:                darken(@navbarBackgroundHighlight, 5%);
+@navbarBackground:                #ffffff;
 @navbarBorder:                    darken(@navbarBackground, 12%);
 
 @navbarText:                      #777;

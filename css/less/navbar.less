@@ -22,11 +22,10 @@
   min-height: @navbarHeight;
   padding-left:  20px;
   padding-right: 20px;
-  #gradient > .vertical(@navbarBackgroundHighlight, @navbarBackground);
+  background: @navbarBackground;
   border: 1px solid @navbarBorder;
   .border-radius(@baseBorderRadius);
-  .box-shadow(0 1px 4px rgba(0,0,0,.065));
-
+  
   // Prevent floats from breaking the navbar
   .clearfix();
 }
@@ -50,7 +49,7 @@
   float: left;
   display: block;
   // Vertically center the text given @navbarHeight
-  padding: ((@navbarHeight - @baseLineHeight) / 2) 20px ((@navbarHeight - @baseLineHeight) / 2);
+  padding: 0 20px 0;
   margin-left: -20px; // negative indent to left-align the text down the page
   font-size: 20px;
   font-weight: 200;
@@ -206,7 +205,7 @@
 .navbar-fixed-top,
 .navbar-static-top {
   .navbar-inner {
-    .box-shadow(~"0 1px 10px rgba(0,0,0,.1)");
+    
   }
 }
 
@@ -228,7 +227,7 @@
   left: 0;
   display: block;
   float: left;
-  margin: 0 10px 0 0;
+  margin: 35px 10px 0 0;
 }
 .navbar .nav.pull-right {
   float: right; // redeclare due to specificity
@@ -236,6 +235,7 @@
 }
 .navbar .nav > li {
   float: left;
+  border-bottom: 5px solid transparent;
 }
 
 // Links
@@ -259,14 +259,118 @@
   text-decoration: none;
 }
 
+// Hover Colors per item
+.navbar .nav > li:first-child > a:focus,
+.navbar .nav > li:first-child > a:hover {
+  border-bottom: 5px solid @desk;
+  color: @desk;
+}
+
+.navbar .nav > li:nth-child(2) > a:focus,
+.navbar .nav > li:nth-child(2) > a:hover {
+  border-bottom: 5px solid @missu;
+  color: @missu;
+}
+
+.navbar .nav > li:nth-child(3) > a:focus,
+.navbar .nav > li:nth-child(3) > a:hover {
+  border-bottom: 5px solid @unripe;
+  color: @unripe;
+}
+
+.navbar .nav > li:nth-child(4) > a:focus,
+.navbar .nav > li:nth-child(4) > a:hover {
+  border-bottom: 5px solid @wasabi;
+  color: @wasabi;
+}
+
+.navbar .nav > li:nth-child(5) > a:focus,
+.navbar .nav > li:nth-child(5) > a:hover {
+  border-bottom: 5px solid @desk;
+  color: @desk;
+}
+
+.navbar .nav > li:nth-child(6) > a:focus,
+.navbar .nav > li:nth-child(6) > a:hover {
+  border-bottom: 5px solid @missu;
+  color: @missu;
+}
+
+.navbar .nav > li:nth-child(7) > a:focus,
+.navbar .nav > li:nth-child(7) > a:hover {
+  border-bottom: 5px solid @unripe;
+  color: @unripe;
+}
+
+.navbar .nav > li:nth-child(8) > a:focus,
+.navbar .nav > li:nth-child(8) > a:hover {
+  border-bottom: 5px solid @wasabi;
+  color: @wasabi;
+}
+
 // Active nav items
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
   color: @navbarLinkColorActive;
   text-decoration: none;
-  background-color: @navbarLinkBackgroundActive;
-  .box-shadow(inset 0 3px 8px rgba(0,0,0,.125));
+}
+
+// Active menu items per colour
+.navbar .nav > li:first-child.active > a,
+.navbar .nav > li:first-child.active > a:hover,
+.navbar .nav > li:first-child.active > a:focus {
+  border-bottom: 5px solid @desk;
+  color: @desk;
+}
+
+.navbar .nav > li:nth-child(2).active > a,
+.navbar .nav > li:nth-child(2).active > a:hover,
+.navbar .nav > li:nth-child(2).active > a:focus {
+  border-bottom: 5px solid @missu;
+  color: @missu;
+}
+
+.navbar .nav > li:nth-child(3).active > a,
+.navbar .nav > li:nth-child(3).active > a:hover,
+.navbar .nav > li:nth-child(3).active > a:focus {
+  border-bottom: 5px solid @unripe;
+  color: @unripe;
+}
+
+.navbar .nav > li:nth-child(4).active > a,
+.navbar .nav > li:nth-child(4).active > a:hover,
+.navbar .nav > li:nth-child(4).active > a:focus {
+  border-bottom: 5px solid @wasabi;
+  color: @wasabi;
+}
+
+.navbar .nav > li:nth-child(5).active > a,
+.navbar .nav > li:nth-child(5).active > a:hover,
+.navbar .nav > li:nth-child(5).active > a:focus {
+  border-bottom: 5px solid @desk;
+  color: @desk;
+}
+
+.navbar .nav > li:nth-child(6).active > a,
+.navbar .nav > li:nth-child(6).active > a:hover,
+.navbar .nav > li:nth-child(6).active > a:focus {
+  border-bottom: 5px solid @missu;
+  color: @missu;
+}
+
+.navbar .nav > li:nth-child(7).active > a,
+.navbar .nav > li:nth-child(7).active > a:hover,
+.navbar .nav > li:nth-child(7).active > a:focus {
+  border-bottom: 5px solid @unripe;
+  color: @unripe;
+}
+
+.navbar .nav > li:nth-child(8).active > a,
+.navbar .nav > li:nth-child(8).active > a:hover,
+.navbar .nav > li:nth-child(8).active > a:focus {
+  border-bottom: 5px solid @wasabi;
+  color: @wasabi;
 }
 
 // Navbar button for toggling navbar items in responsive layouts

@@ -143,7 +143,6 @@ function get_data($var) {
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/bootstrap-responsive.css">
         <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
@@ -154,6 +153,16 @@ function get_data($var) {
 
 		<!-- Fixed navbar -->
         <div class="navbar navbar-fixed-top">
+        	<div>
+        		<div class="box1">
+        		</div>
+        		<div class="box2">
+        		</div>
+        		<div class="box3">
+        		</div>
+        		<div class="box4">
+        		</div>
+        	</div>
             <div class="navbar-inner">
                 <div class="container">
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -164,7 +173,7 @@ function get_data($var) {
                     <a class="brand aligncenter" href="#"><h1><span class="italic">Dominic Suddaby</span><br><small>Fine Hand Made Walking Sticks</small></h1></a>
                     <div class="nav-collapse collapse pull-right">
                         <ul class="nav">
-                            <li class="active"><a href="#home">Home</a></li>
+                            <li class="menu1 active"><a href="#home">Home</a></li>
                             <li><a href="#process">The Process</a></li>
                             <li><a href="#gallery">Gallery</a></li>
                             <li><a href="#sundries">Sundries</a></li>
@@ -179,14 +188,16 @@ function get_data($var) {
 		<!-- Introduction Section -->
 		<section class="intro" id="home">
 			<div class="container">
-				<h1>Welcome to Dominic Suddaby Hand Made Walking Sticks</h1>
+				
 				<div class="row">
 					<div class="span6">
-						<img src="http://placehold.it/450x450&text=Picture of Dominic Suddaby" width="450">
+						<h2>Welcome to Dominic Suddaby Hand Made Walking Sticks</h2>
+						<p class="lead"><strong>Dominic Suddaby</strong> has been hand-making walking sticks and demonstrating his craft at country shows for over 25 years.</p>
+						<p>Based in his workshop in rural Lincolnshire, Dominic collects, seasons and fashions a range of fine traditional sticks using natural materials such as rams’ horn, deer antler and natural wood formations such as gnarled roots and ‘twisties’.</p>
+						<p>The sticks fall into five broad categories: shepherds’ crooks, thumb sticks, short sticks, knob sticks and staffs but each one is entirely unique due to the natural materials used and the care that Dominic applies to matching heads to shanks to produce balanced and beautiful pieces that feel good in the hand and are strong enough to withstand the rigours of country life.</p>
 					</div>
 					<div class="span6">
-						<p class="drop-cap">Dominic Suddaby has been hand-making walking sticks and demonstrating his craft at country shows for over 25 years. Based in his workshop in rural Lincolnshire, Dominic collects, seasons and fashions a range of fine traditional sticks using natural materials such as rams’ horn, deer antler and natural wood formations such as gnarled roots and ‘twisties’.</p>
-						<p>The sticks fall into five broad categories: shepherds’ crooks, thumb sticks, short sticks, knob sticks and staffs but each one is entirely unique due to the natural materials used and the care that Dominic applies to matching heads to shanks to produce balanced and beautiful pieces that feel good in the hand and are strong enough to withstand the rigours of country life.</p>
+						<img src="img/dominic.jpg" alt="dominic" width="400" height="533">
 					</div>
 				</div>
 			</div>
@@ -243,10 +254,10 @@ function get_data($var) {
 								</div>
 								<div class="item">
 									<div class="row-fluid clearfix">
-										<div class="span7 aligncenter">
-											<img src="http://placehold.it/450x300&text=Making the Stick" width="450">
+										<div class="span6 aligncenter">
+											<img src="http://placehold.it/400x300&text=Making the Stick" width="400">
 										</div>
-										<div class="span5">
+										<div class="span6">
 											<h2>3. Making the Stick</h2>
 											<p>This is where the stickmaker’s skill and experience really come to the fore.  Most sticks are made from two pieces, the head (handle) and the shank. Dominic will carefully match two pieces that complement each other and are balanced so that they look beautiful but also feel good in the hand. The shank will be straightened through steaming, and peeled or shaped as necessary, then joined to the head.  A brass ferrule is added to the end of each stick to save it from wear and tear.</p>
 										</div>
