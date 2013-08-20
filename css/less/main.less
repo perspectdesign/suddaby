@@ -39,6 +39,11 @@ section.process {
 	background: @missu;
 }
 
+.process h2.italic {
+	font-family: @altFontFamily;
+	color: @white;
+}
+
 .carousel {
   position: relative;
 }
@@ -80,9 +85,9 @@ section.process {
   top: 17px;
   position: absolute;
   height: 0px;
-  background: rgba(0, 0, 0, 0.1);
+  background: @white;
   border: rgba(0, 0, 0, 0.05) solid 5px;
-  border-radius: 10px;
+  border-radius: 5px;
   z-index: -1;
 }
 .carousel.custom2 .carousel-indicators li {
@@ -90,6 +95,7 @@ section.process {
   height: auto;
   background: none;
   cursor: pointer;
+  color: @desk;
 }
 .carousel.custom2 .carousel-indicators li .round {
   height: 40px;
@@ -100,9 +106,9 @@ section.process {
   font-size: 18px;
   border-radius: 100px;
   position: relative;
+  background: @white;
 }
 .carousel.custom2 .carousel-indicators li .round:before {
-  background: rgba(0, 0, 0, 0.1);
   width: 40px;
   height: 40px;
   border-radius: 100px;
@@ -114,10 +120,9 @@ section.process {
 }
 .carousel.custom2 .carousel-indicators li .desc {
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
   position: relative;
-  opacity: 0.5;
-  filter: alpha(opacity=60);
+  color: @white;
 }
 .carousel.custom2 .carousel-indicators li.active,
 .carousel.custom2 .carousel-indicators li:hover {
@@ -126,12 +131,11 @@ section.process {
 }
 .carousel.custom2 .carousel-indicators li.active .round,
 .carousel.custom2 .carousel-indicators li:hover .round {
-  background: #333;
+  background: @unripe;
 }
 .carousel.custom2 .carousel-indicators li.active .desc,
 .carousel.custom2 .carousel-indicators li:hover .desc {
-  opacity: 1;
-  filter: alpha(opacity=100);
+  color: @grayDark;
 }
 .carousel.custom2 a.carousel-control {
   width: 24px;
@@ -159,9 +163,14 @@ section.process {
   text-align: center;
 }
 
-/* Section Process  */
+/* Section Gallery  */
 section.gallery {
-	background: @unripe;
+	background: none;
+}
+
+.gallery h2 {
+	font-family: @altFontFamily;
+	color: @unripe;
 }
 
 /* Section Sundries  */
@@ -169,8 +178,21 @@ section.sundries {
 	background: transparent;
 }
 
+.sundries h2.italic {
+	font-family: @altFontFamily;
+	color: @wasabi;
+}
+
 section.sundries .intro {
 	padding-bottom: 50px;
+}
+
+section.sundries p {
+	text-align: center;
+}
+
+section.sundries p.lead {
+	text-align: justify;
 }
 
 /* Section Feedback */
@@ -178,35 +200,34 @@ section.feedback {
 	background: @desk;
 }
 
+.feedback h2.italic {
+	font-family: @altFontFamily;
+	color: @white;
+}
+
+.feedback blockquote, .feedback blockquote small  {
+	color: white;
+}
+
 /* Section Contact */
 
+section.contact {
+	background: @missu;
+}
+.contact h2.italic {
+	font-family: @altFontFamily;
+	color: @white;
+}
 /* Contact Form */
 /* === Remove input autofocus webkit === */
 *:focus {outline: none;}
 
 /* === Form Typography === */
-section.contact {font: 14px/21px;}
+
 
 .form_hint, .required_notification {font-size: 11px;}
 
-/* === List Styles === */
-.contact_form ul {
-    width:750px;
-    list-style-type:none;
-	list-style-position:outside;
-	margin:0px;
-	padding:0px;
-}
-.contact_form li{
-	padding:12px; 
-	position:relative;
-} 
-
 /* === Form Header === */
-.contact_form h2 {
-	margin:0;
-	display: inline;
-}
 .required_notification {
 	color:#d45252; 
 	margin:5px 0 10px 0; 
@@ -224,7 +245,7 @@ section.contact {font: 14px/21px;}
 }
 .contact_form input {
 	height:20px; 
-	width:220px; 
+	width:inherit; 
 	padding:5px 8px;
 }
 .contact_form textarea {padding:8px; width:300px;}
@@ -245,7 +266,6 @@ section.contact {font: 14px/21px;}
 		background: #fff; 
 		border:1px solid #555; 
 		box-shadow: 0 0 3px #aaa; 
-		padding-right:70px;
 	}
 
 /* === HTML5 validation styles === */	

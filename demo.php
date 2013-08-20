@@ -206,7 +206,7 @@ function get_data($var) {
 		<!-- The Process Section -->
 		<section class="process" id="process">
 			<div class="container">
-				<h2>The Process</h2>
+				<h2 class="italic">The Process</h2>
 				<p class="lead">People often ask “How long does it take to make a stick?”. There is no straightforward answer to this because it is a process which takes over 2 years to complete and consists of various stages. These are:</p>
 				<div class="row">
 					<div class="span12">
@@ -237,7 +237,7 @@ function get_data($var) {
 										</div>
 										<div class="span5">
 											<h2>1. Cutting or Harvesting</h2>
-											<p>During the winter months Dominic scours local woodlands for suitable saplings and ‘formations’. He likes to work with Hazel, Blackthorn, Ash and Holly, and keeps a particular look-out for what he calls “twisties” – these are spiral sticks created by Honeysuckle.</p>
+											<p>During the winter months Dominic <strong>scours local woodlands</strong> for suitable saplings and ‘formations’. He likes to work with Hazel, Blackthorn, Ash and Holly, and keeps a particular look-out for what he calls <strong>“twisties”</strong> – these are spiral sticks created by Honeysuckle.</p>
 										</div>
 									</div>
 								</div>
@@ -245,7 +245,7 @@ function get_data($var) {
 									<div class="row-fluid clearfix">
 										<div class="span5">
 											<h2>2. Seasoning</h2>
-											<p>The sticks are bundled and stored in a brick barn near the workshop. They remain here for two years to allow the wood to season.</p>
+											<p>The sticks are <strong>bundled and stored</strong> in a brick barn near the workshop. They remain here <strong>for two years to allow the wood to season.</strong></p>
 										</div>
 										<div class="span7 aligncenter">
 											<img src="http://placehold.it/450x300&text=Seasoning" width="450">
@@ -259,7 +259,7 @@ function get_data($var) {
 										</div>
 										<div class="span6">
 											<h2>3. Making the Stick</h2>
-											<p>This is where the stickmaker’s skill and experience really come to the fore.  Most sticks are made from two pieces, the head (handle) and the shank. Dominic will carefully match two pieces that complement each other and are balanced so that they look beautiful but also feel good in the hand. The shank will be straightened through steaming, and peeled or shaped as necessary, then joined to the head.  A brass ferrule is added to the end of each stick to save it from wear and tear.</p>
+											<p>This is where the stickmaker’s skill and experience really come to the fore.  Most sticks are made from two pieces, the head (handle) and the shank. Dominic will <strong>carefully match two pieces that complement each other</strong> and are balanced so that they look beautiful but also feel good in the hand. The <strong>shank will be straightened through steaming</strong>, and <strong>peeled</strong> or <strong>shaped</strong> as necessary, then <strong>joined to the head</strong>.  A <strong>brass ferrule is added</strong> to the end of each stick to save it from wear and tear.</p>
 										</div>
 									</div>
 								</div>
@@ -267,7 +267,7 @@ function get_data($var) {
 									<div class="row-fluid clearfix">
 										<div class="span5">
 											<h2>4. Finishing</h2>
-											<p>The stick will be finished by hand, sanding and shaping it to give a smooth finish.  Sometimes stains are used to enhance and bring out the natural colours in the wood. Finally, it is given several coats of yacht varnish to ensure it is truly weatherproof.</p>
+											<p>The stick will be <strong>finished by hand</strong>, sanding and shaping it to give a smooth finish.  Sometimes stains are used to enhance and bring out the natural colours in the wood. Finally, it is <strong>given several coats of yacht varnish</strong> to ensure it is truly weatherproof.</p>
 										</div>
 										<div class="span7 aligncenter">
 											<img src="http://placehold.it/450x300&text=Finishing" width="450">
@@ -287,7 +287,6 @@ function get_data($var) {
 			<div class="container">
 				<h2>Gallery</h2>
 				<p class="lead">There are five main categories, and within each category the shanks can be made from different woods, and be either ‘straight’ or ‘twisty’. The photos below show just some of the permutations (combinations) available.   The height of the sticks varies but a long stick can easily be shortened to suit.  Sadly, we cannot do the reverse!</p>
-
                 <!-- Slider -->
                 <div class="row">
                 	<div class="span12" id="slider">
@@ -297,15 +296,16 @@ function get_data($var) {
                             	<div id="myCarousel" class="carousel slide">
                                 	<!-- Carousel items -->
                                     <div class="carousel-inner">
-                                    	<div class="active item" data-slide-number="0"><img src="http://placehold.it/960x600&text=Shepherds’ Crooks" /></div>
-                                        <div class="item" data-slide-number="1"><img src="http://placehold.it/960x600&text=Thumb Sticks" /></div>
-                                        <div class="item" data-slide-number="2"><img src="http://placehold.it/960x600&text=Knob Sticks" /></div>
-                                        <div class="item" data-slide-number="3"><img src="http://placehold.it/960x600&text=Staffs" /></div>
-                                        <div class="item" data-slide-number="4"><img src="http://placehold.it/960x600&text=Short Sticks" /></div>
+                                    	<div class="active item" data-slide-number="0"><img src="http://placehold.it/930x400&text=Shepherds’ Crooks" width="930" /></div>
+                                        <div class="item" data-slide-number="1"><img src="http://placehold.it/930x400&text=Thumb Sticks" width="930"/></div>
+                                        <div class="item" data-slide-number="2"><img src="http://placehold.it/930x400&text=Knob Sticks" width="930"/></div>
+                                        <div class="item" data-slide-number="3"><img src="http://placehold.it/930x400&text=Staffs" width="930" /></div>
+                                        <div class="item" data-slide-number="4"><img src="http://placehold.it/930x400&text=Short Sticks" width="930" /></div>
                                     </div>
-									<!-- Carousel nav
-	                                <a class="carousel-control left" href="#myCarousel" data-slide="prev">‹</a>
-	                                <a class="carousel-control right" href="#myCarousel" data-slide="next">›</a>-->
+									<div class="visible-phone">
+		                                <a class="carousel-control left" href="#myCarousel" data-slide="prev">‹</a>
+		                                <a class="carousel-control right" href="#myCarousel" data-slide="next">›</a>
+									</div>
 	                            </div>
 	                        </div>
 						</div>
@@ -350,70 +350,76 @@ function get_data($var) {
 		<!-- Sundries Section -->
 		<section class="sundries" id="sundries">
 			<div class="container">
-				<div class="aligncenter intro">
-					<h2>Sundries</h2>
+				<div class="intro">
+					<h2 class="italic">Sundries</h2>
 					<p class="lead">For anyone who would like to make their own stick, we can supply various component pieces, and for those who don’t have too much time to spare, Dominic has prepared some sticks that are ‘made’ but need finishing (that is the final sanding and varnishing). Please enquire if you are interested in buying any of the following materials.</p>
-					<button class="btn btn-large btn-primary" type="button">Get in touch</button>
+					<div class="aligncenter">
+						<a class="btn btn-large btn-primary" type="button" href="#contact">Get in touch</a>
+					</div>
 				</div>
 				<div class="row">
-					<div class="span4">
+					<div class="span2 offset1">
 						<div class="aligncenter">
 							<img src="http://placehold.it/200x200&text=1" class="img-circle">
-							<h2>Antler Pieces</h2>
+							<h3>Antler Pieces</h3>
 						</div>
 					</div>
-					<div class="span4">
+					<div class="span2">
 						<div class="aligncenter">
 							<img src="http://placehold.it/200x200&text=2" class="img-circle">
-							<h2>Rams’ horn</h2>
+							<h3>Rams’ horn</h3>
 						</div>
 					</div>
-					<div class="span4">
+					<div class="span2">
 						<div class="aligncenter">
 							<img src="http://placehold.it/200x200&text=3" class="img-circle">
-							<h2>Buffalo horn</h2>
+							<h3>Buffalo horn</h3>
 						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="span4">
+					<div class="span2">
 						<div class="aligncenter">
 							<img src="http://placehold.it/200x200&text=4" class="img-circle">
-							<h2>Wooden handles</h2>
+							<h3>Wooden handles</h3>
 						</div>
 					</div>
-					<div class="span4">
+					<div class="span2">
 						<div class="aligncenter">
 							<img src="http://placehold.it/200x200&text=5" class="img-circle">
-							<h2>Stick shanks</h2>
+							<h3>Stick shanks</h3>
 							<p>various types of wood, ie. hazel, ash, blackthorn</p>
 						</div>
 					</div>
-					<div class="span4">
-						<div class="aligncenter">
-							<img src="http://placehold.it/200x200&text=6" class="img-circle">
-							<h2>Wooden and antler thumb heads</h2>
-						</div>
-					</div>
 				</div>
 				<div class="row">
-					<div class="span4">
+					<div class="span2 offset1">
+						<div class="aligncenter">
+							<img src="http://placehold.it/200x200&text=6" class="img-circle">
+							<h3>Wooden and antler thumb heads</h3>
+						</div>
+					</div>
+					<div class="span2">
 						<div class="aligncenter">
 							<img src="http://placehold.it/200x200&text=7" class="img-circle">
-							<h2>Ferrules</h2>
+							<h3>Ferrules</h3>
 							<p>brass, rubber & alpine</p>
 						</div>
 					</div>
-					<div class="span4">
+					<div class="span2">
 						<div class="aligncenter">
 							<img src="http://placehold.it/200x200&text=8" class="img-circle">
-							<h2>Ready made sticks for finishing </h2>
+							<h3>Ready made sticks for finishing </h3>
 						</div>
 					</div>
-					<div class="span4">
+					<div class="span2">
 						<div class="aligncenter">
 							<img src="http://placehold.it/200x200&text=9" class="img-circle">
-							<h2>Antler Whistles</h2>
+							<h3>Antler Whistles</h3>
+						</div>
+					</div>
+					<div class="span2">
+						<div class="aligncenter">
+							<img src="http://placehold.it/200x200&text=10" class="img-circle">
+							<h3>Leather Aprons</h3>
 						</div>
 					</div>
 				</div>
@@ -422,28 +428,34 @@ function get_data($var) {
 		
 		<section class="feedback" id="feedback">
 			<div class="container">
-				<h2>Feedback from Customers</h2>
-				<blockquote>
-					<p>Do tonx sunt assumenda, consequat fingerstache minim single-origin coffee pariatur street art pickled cillum. Truffaut cupidatat keytar scenester readymade.</p>
-					<small>John Smith <cite title="Source Title">Derbyshire</cite></small>
-				</blockquote>
-				
-				<blockquote>
-					<p>Do tonx sunt assumenda, consequat fingerstache minim single-origin coffee pariatur street art pickled cillum. Truffaut cupidatat keytar scenester readymade.</p>
-					<small>John Smith <cite title="Source Title">Derbyshire</cite></small>
-				</blockquote>
-				
-				<blockquote>
-					<p>Do tonx sunt assumenda, consequat fingerstache minim single-origin coffee pariatur street art pickled cillum. Truffaut cupidatat keytar scenester readymade.</p>
-					<small>John Smith <cite title="Source Title">Derbyshire</cite></small>
-				</blockquote>
+				<h2 class="italic">Feedback from Customers</h2>
+				<div class="row">
+					<div class="span7">
+						<blockquote>
+							<p>Do tonx sunt assumenda, consequat fingerstache minim single-origin coffee pariatur street art pickled cillum. Truffaut cupidatat keytar scenester readymade.</p>
+							<small>John Smith <cite title="Source Title">Derbyshire</cite></small>
+						</blockquote>
+						
+						<blockquote>
+							<p>Do tonx sunt assumenda, consequat fingerstache minim single-origin coffee pariatur street art pickled cillum. Truffaut cupidatat keytar scenester readymade.</p>
+							<small>John Smith <cite title="Source Title">Derbyshire</cite></small>
+						</blockquote>
+						
+						<blockquote>
+							<p>Do tonx sunt assumenda, consequat fingerstache minim single-origin coffee pariatur street art pickled cillum. Truffaut cupidatat keytar scenester readymade.</p>
+							<small>John Smith <cite title="Source Title">Derbyshire</cite></small>
+						</blockquote>
+					</div>
+					<div class="span5 aligncenter">
+						<img src="http://placehold.it/300x300&text=image">
+					</div>
 			</div>
 		</section><!-- End Feedback Section -->
 		
 		<!-- Contact Section -->
 		<section class="contact" id="contact">
 			<div class="container">
-				<h2>Contact Us</h2>
+				<h2 class="italic">Contact Us</h2>
 				<div class="row">
 					<div class="span9">
 						<!-- Contact Form -->
@@ -456,7 +468,7 @@ function get_data($var) {
 						    <div class="control-group">
 						    	<label class="control-label" for="name">Name:</label>
 						    	<div class="controls">
-						    		<input type="text" name="name" id="name" value="<?php get_data("name"); ?>" placeholder="John Doe" required />
+						    		<input class="span4" type="text" name="name" id="name" value="<?php get_data("name"); ?>" placeholder="John Doe" required />
 						    	</div>
 						    </div>
 						    <div class="control-group">
@@ -547,11 +559,9 @@ function get_data($var) {
         <script>
 		  jQuery(document).ready(function($) {
 		 
-		        $('#myCarousel').carousel({
-		                interval: 5000
+		        $('#process-slider').carousel({
+		                interval: 20000
 		        });
-		 
-		        $('#carousel-text').html($('#slide-content-0').html());
 		 
 		        //Handles the carousel thumbnails
 		        $('[id^=carousel-selector-]').click( function(){
