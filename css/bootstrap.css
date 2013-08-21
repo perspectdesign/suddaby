@@ -917,6 +917,7 @@ section.contact{background:#fff}
 *:focus{outline:none}
 .form_hint,.required_notification{font-size:11px}
 .required_notification{color:#d45252;margin:5px 0 10px 0;display:inline;float:left}
+.message{margin-top:20px}
 .contact_form label{text-align:right;font-size:16.8px;padding-top:8px}
 .contact_form input,.contact_form textarea{border:2px solid #b2bb82;border-radius:0;padding-right:30px;padding-bottom:15px;-moz-transition:padding .25s;-webkit-transition:padding .25s;-o-transition:padding .25s;transition:padding .25s;resize:none;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;width:100%}
 .contact_form input{padding-top:15px}

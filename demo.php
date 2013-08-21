@@ -163,6 +163,7 @@ function get_data($var) {
         		<div class="box4">
         		</div>
         	</div>
+
             <div class="navbar-inner">
                 <div class="container">
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -183,6 +184,14 @@ function get_data($var) {
                     </div><!--/.nav-collapse -->
                 </div>
             </div>
+                    			<?php
+			if (!empty($error_msg)) {
+				echo '<div class="container message"><div class="alert alert-error"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Error: </strong> '. implode("<br />", $error_msg) . "</div></div>";
+			}
+			if ($result != NULL) {
+				echo '<div class="container message"><div class="alert alert-success"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Success: </strong>'. $result . "</div></div>";
+			}
+		?>
         </div>
 
 		<!-- Introduction Section -->
@@ -513,34 +522,6 @@ function get_data($var) {
 							<noscript>
 								<p><input type="hidden" name="nojs" id="nojs" /></p>
 							</noscript>
-							<?php
-								if (!empty($error_msg)) {
-									echo '<div class="alert alert-error"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Error: </strong> '. implode("<br />", $error_msg) . "</div>";
-								}
-								if ($result != NULL) {
-									echo '<div class="alert alert-success"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Success: </strong>'. $result . "</div>";
-								}
-							?>
-							<!-- Modal message box for contact form -->
-							<!-- Modal -->
-							<?php if (1 != 4) {
-								echo '<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-								    <h3 id="myModalLabel">Modal header</h3>
-								</div>
-								<div class="modal-body">
-									<p>One fine body…</p>
-								</div>
-								<div class="modal-footer">
-									<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-								    <button class="btn btn-primary">Save changes</button>
-								</div>
-								</div><!-- End modal box -->';
-								}
-							?>
-							<!-- Button to trigger modal -->
-							<a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
 							<div class="row">
 							    <label class="control-label span2" for="name">Name:</label>
 							    <div class="controls span6">
@@ -562,7 +543,7 @@ function get_data($var) {
 						    </div>
 							<div class="row">
 								<div class="controls span2 offset2">
-									<button id="submit" type="submit" class="btn btn-submit" name="submit" value="submit" <?php if (isset($disable) && $disable === true) echo ' disabled="disabled"'; ?>>Submit</button>
+									<button id="submit" type="submit" class="btn btn-submit" name="submit" value="submit" <?php if (isset($disable) && $disable === true) echo ' disabled="disabled"'; ?>>Send Message</button>
 									<!--<input id="submit" class="submit" type="submit" name="submit" value="Submit" <?php if (isset($disable) && $disable === true) echo ' disabled="disabled"'; ?>>-->
 								</div>
 						    </div>
@@ -581,7 +562,7 @@ function get_data($var) {
         		<p>&copy; Copyright 2013 <a href="http://www.perspectivedesign.co.uk" target="new">Perspective Design</a></p>
         	</div>
         </footer><!-- End Footer Section -->
-               
+          
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.js"><\/script>')</script>
 
