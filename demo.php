@@ -196,8 +196,8 @@ function get_data($var) {
 						<p>Based in his workshop in rural Lincolnshire, Dominic collects, seasons and fashions a range of fine traditional sticks using natural materials such as rams’ horn, deer antler and natural wood formations such as gnarled roots and ‘twisties’.</p>
 						<p>The sticks fall into five broad categories: shepherds’ crooks, thumb sticks, short sticks, knob sticks and staffs but each one is entirely unique due to the natural materials used and the care that Dominic applies to matching heads to shanks to produce balanced and beautiful pieces that feel good in the hand and are strong enough to withstand the rigours of country life.</p>
 					</div>
-					<div class="span6">
-						<img src="img/dominic.jpg" alt="dominic" width="400" height="533">
+					<div class="span6 alignright">
+						<img src="img/dominic.jpg" alt="Dominic Suddaby" width="400" height="533">
 					</div>
 				</div>
 			</div>
@@ -295,7 +295,7 @@ function get_data($var) {
                         	<div class="span12" id="carousel-bounding-box">
                             	<div id="myCarousel" class="carousel slide">
                                 	<!-- Carousel items -->
-                                    <div class="carousel-inner">
+                                    <div class="carousel-inner aligncenter">
                                     	<div class="active item" data-slide-number="0"><img src="http://placehold.it/930x400&text=Shepherds’ Crooks" width="930" /></div>
                                         <div class="item" data-slide-number="1"><img src="http://placehold.it/930x400&text=Thumb Sticks" width="930"/></div>
                                         <div class="item" data-slide-number="2"><img src="http://placehold.it/930x400&text=Knob Sticks" width="930"/></div>
@@ -456,81 +456,123 @@ function get_data($var) {
 		<section class="contact" id="contact">
 			<div class="container">
 				<h2 class="italic">Contact Us</h2>
-				<div class="row">
-					<div class="span4">
-						<h3>We would love to hear from you</h3>
-						<i class="icon-home icon-2x"></i> <h3>Address</h3>
-						<address>
-							<strong>Dominic Suddaby</strong><br>
-							Coppice House<br>
-							Brigg Road<br>
-							MOORTOWN<br>
-							Lincs<br>
-							LN7 6JA<br>
-						</address>
-						
-						<h4><i class="icon-phone icon-2x"></i> Phone</h4>
-						<address>
-							Tel. 01652 678442
-						</address>
-						
-						<h4><i class="icon-envelope"></i> Email</h4>
-						<address>
-							<a href="mailto:info@dominicsuddaby.co.uk">info@dominicsuddaby.co.uk</a>
-						</address>
+				<p class="lead">We would love to hear from you</p>
+			</div>
+			<div class="contact-details">
+				<div class="container">
+					<div class="row">
+						<div class="span4 aligncenter">
+							<img src="http://placehold.it/200x200&text=image">
+						</div>
+						<div class="span4">
+							<span class="icon-stack icon-3x pull-left">
+								<i class="icon-circle icon-stack-base"></i>
+								<i class="icon-home icon-light"></i>
+							</span>
+							<h3>Address</h3>
+							<address>
+								<strong>Dominic Suddaby</strong><br>
+								Coppice House<br>
+								Brigg Road<br>
+								MOORTOWN<br>
+								Lincs<br>
+								LN7 6JA<br>
+							</address>
+						</div>
+						<div class="span4">
+							<span class="icon-stack icon-3x pull-left">
+								<i class="icon-circle icon-stack-base"></i>
+								<i class="icon-phone icon-light"></i>
+							</span>
+							<h3>Phone</h3>
+							<address>
+								Tel. 01652 678442
+							</address>
+							<span class="icon-stack icon-3x pull-left">
+								<i class="icon-circle icon-stack-base"></i>
+								<i class="icon-envelope icon-light"></i>
+							</span>
+							<h3>Email</h3>
+							<address>
+								<a href="mailto:info@dominicsuddaby.co.uk">info@dominicsuddaby.co.uk</a>
+							</address>
+						</div>
 					</div>
-					<div class="span8 formarea">
-						<!-- Contact Form -->
-						<!--<h4 class="required_notification">* Denotes Required Field</h4>-->
-			
-						<form class="contact_form form-horizontal" action="<?php echo basename(__FILE__); ?>" method="post" name="contact_form">
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<!-- Contact Form -->
+					<div class="span8">
+						<div class="row">
+							<div class="span6 offset2">
+								<h2>Send Us a Message</h2>
+							</div>
+						</div>
+						<form id="myform" class="contact_form" action="<?php echo basename(__FILE__); ?>" method="post" name="contact_form">
 							<noscript>
 								<p><input type="hidden" name="nojs" id="nojs" /></p>
 							</noscript>
-						    <div class="control-group">
-						    	<label class="control-label" for="name">Name:</label>
-						    	<div class="controls">
-						    		<input data-toggle="tooltip" title="first tooltip" class="span4" type="text" name="name" id="name" value="<?php get_data("name"); ?>" placeholder="John Doe" required />
-						    	</div>
+							<?php
+								if (!empty($error_msg)) {
+									echo '<div class="alert alert-error"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Error: </strong> '. implode("<br />", $error_msg) . "</div>";
+								}
+								if ($result != NULL) {
+									echo '<div class="alert alert-success"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Success: </strong>'. $result . "</div>";
+								}
+							?>
+							<!-- Modal message box for contact form -->
+							<!-- Modal -->
+							<?php if (1 != 4) {
+								echo '<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+								    <h3 id="myModalLabel">Modal header</h3>
+								</div>
+								<div class="modal-body">
+									<p>One fine body…</p>
+								</div>
+								<div class="modal-footer">
+									<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+								    <button class="btn btn-primary">Save changes</button>
+								</div>
+								</div><!-- End modal box -->';
+								}
+							?>
+							<!-- Button to trigger modal -->
+							<a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
+							<div class="row">
+							    <label class="control-label span2" for="name">Name:</label>
+							    <div class="controls span6">
+									<input data-toggle="tooltip" title="first tooltip" type="text" name="name" id="name" value="<?php get_data("name"); ?>" placeholder="John Doe" required />
+								</div>
+							</div>
+							<div class="row">
+								<label class="control-label span2" for="email">E-mail:</label>
+							   	<div class="controls span6">
+							   		<input type="email" name="email" id="email" value="<?php get_data("email"); ?>" placeholder="john_doe@example.com" required />
+							        <span class="form_hint">Proper format "name@something.com"</span>
+							   	</div>
+							</div>
+							<div class="row">
+							   	<label class="control-label span2" for="comments">Comments:</label>
+							   	<div class="controls span6">
+							   		<textarea name="comments" id="comments" rows="8" required ><?php get_data("comments"); ?></textarea>
+							   	</div>
 						    </div>
-						    <div class="control-group">
-						    	<label class="control-label" for="email">E-mail:</label>
-						    	<div class="controls">
-						    		<input class="span4" type="email" name="email" id="email" value="<?php get_data("email"); ?>" placeholder="john_doe@example.com" required />
-						            <span class="form_hint">Proper format "name@something.com"</span>
-						    	</div>
-						    </div>
-						    <!--<div class="control-group">
-						    	<label class="control-label" for="url">Website URL:</label>
-						    	<div class="controls">
-						    		<input type="url" name="url" id="url" value="<?php get_data("url"); ?>" placeholder="http://johndoe.com" />
-						        	<span class="form_hint">Proper format "http://someaddress.com"</span>
-						    	</div>
-						    </div>-->
-						    <div class="control-group">
-						    	<label class="control-label" for="comments">Comments:</label>
-						    	<div class="controls">
-						    		<textarea class="span4" name="comments" id="comments" rows="8" required ><?php get_data("comments"); ?></textarea>
-						    	</div>
-						    </div>
-						    <div class="control-group">
-								<div class="controls">
-									<button id="submit" type="submit" class="btn btn-primary" name="submit" value="submit" <?php if (isset($disable) && $disable === true) echo ' disabled="disabled"'; ?>>Submit</button>
+							<div class="row">
+								<div class="controls span2 offset2">
+									<button id="submit" type="submit" class="btn btn-submit" name="submit" value="submit" <?php if (isset($disable) && $disable === true) echo ' disabled="disabled"'; ?>>Submit</button>
 									<!--<input id="submit" class="submit" type="submit" name="submit" value="Submit" <?php if (isset($disable) && $disable === true) echo ' disabled="disabled"'; ?>>-->
 								</div>
 						    </div>
-						</form><!-- End Contact Form -->
-						<?php
-							if (!empty($error_msg)) {
-								echo '<div class="alert alert-error"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Error: </strong> '. implode("<br />", $error_msg) . "</div>";
-							}
-							if ($result != NULL) {
-								echo '<div class="alert alert-success"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Success: </strong>'. $result . "</div>";
-							}
-							?>
-					</div><!-- End span 9 -->
+						</form><!-- End of Contact Form -->
+					</div>
+					<div class="span4">
+						<img src="http://placehold.it/300x350&text=image">
+					</div>	
 				</div>
-			</div>
+			</div>	
 		</section><!-- End Contact Section -->
 		
 		<!-- Footer Section -->
@@ -539,7 +581,7 @@ function get_data($var) {
         		<p>&copy; Copyright 2013 <a href="http://www.perspectivedesign.co.uk" target="new">Perspective Design</a></p>
         	</div>
         </footer><!-- End Footer Section -->
-
+               
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.js"><\/script>')</script>
 
@@ -581,7 +623,22 @@ function get_data($var) {
 		        /* $(this).stop().animate({ opacity: 0 }); */
 		      }
 		    });
-		  </script>
+		</script>
+		  
+		<script>
+		$('#myform').on('submit', function(ev) {
+	    	$('#myModal').modal('show'); 
+	
+	    var data = $(this).serializeObject();
+	    json_data = JSON.stringify(data);
+	    $("#results").text(json_data); 
+	    $(".modal-body").text(json_data); 
+	
+	    // $("#results").text(data);
+	
+	    ev.preventDefault();
+	    });
+	    </script>
 
     </body>
 </html>

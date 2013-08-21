@@ -163,6 +163,14 @@ section.process {
   text-align: center;
 }
 
+.alignright {
+  text-align: right;
+}
+
+.alignleft {
+  text-align: left;
+}
+
 /* Section Gallery  */
 section.gallery {
 	background: none;
@@ -171,6 +179,11 @@ section.gallery {
 .gallery h2 {
 	font-family: @altFontFamily;
 	color: @unripe;
+}
+
+.carousel-inner > .item > img {
+	text-align: center;
+	display: inline;
 }
 
 /* Section Sundries  */
@@ -212,12 +225,26 @@ section.feedback {
 /* Section Contact */
 
 section.contact {
-	background: @missu;
+	background: @white;
 }
 
 .contact h2.italic {
 	font-family: @altFontFamily;
+	color: @missu;
+}
+
+.contact-details {
+	background: @missu;
+	padding: 20px 0 20px 0;
+	margin-bottom: 20px;
+}
+
+.contact-details a {
 	color: @white;
+}
+
+.contact-details a:hover {
+	color: @black;
 }
 
 /* Contact Form */
@@ -239,8 +266,14 @@ section.contact {
 /* === Form Elements === */
 
 /* form element visual styles */
+.contact_form label {
+	text-align: right;
+	font-size: @baseFontSize * 1.2;
+	padding-top: 8px;
+}
+
 .contact_form input, .contact_form textarea { 
-	border:2px solid @desk;
+	border:2px solid @missu;
 	border-radius: 0;
 	padding-right:30px;
 	padding-bottom: 15px;
@@ -260,7 +293,7 @@ section.contact {
 }
 	
 .contact_form input:focus, .contact_form textarea:focus {
-	border:2px solid @desk; 
+	border:2px solid @missu; 
 }
 
 /* === HTML5 validation styles === */	
@@ -338,11 +371,19 @@ input.submit:active {
 
 /* Footer */
 footer {
-	background: @unripe;
+	background: @missu;
 	padding: 35px 0 25px 0;
 }
 
 footer p {
 	text-align: right;
 	font-size: @baseFontSize * 1.2;
+}
+
+footer a {
+	color: @white;
+}
+
+footer a:hover {
+	color: @desk;
 }
