@@ -264,7 +264,7 @@ function get_data($var) {
 								<div class="item">
 									<div class="row-fluid clearfix">
 										<div class="span6 aligncenter">
-											<img src="http://placehold.it/400x300&text=Making the Stick" width="400">
+											<img src="img/making.jpg" alt="Making the Stick" width="400" height="300">
 										</div>
 										<div class="span6">
 											<h2>3. Making the Stick</h2>
@@ -305,11 +305,17 @@ function get_data($var) {
                             	<div id="myCarousel" class="carousel slide">
                                 	<!-- Carousel items -->
                                     <div class="carousel-inner aligncenter">
-                                    	<div class="active item" data-slide-number="0"><img src="http://placehold.it/930x400&text=Shepherds’ Crooks" width="930" /></div>
-                                        <div class="item" data-slide-number="1"><img src="http://placehold.it/930x400&text=Thumb Sticks" width="930"/></div>
+                                    	<div class="active item" data-slide-number="0">
+                                    		<img src="img/crooks.jpg" alt="Shepherds' Crooks" width="930" height="600">
+                                    	</div>
+                                        <div class="item" data-slide-number="1">
+                                        	<img src="img/thumbs.jpg" alt="Thumb Sticks" width="930" height="600">
+                                        </div>
                                         <div class="item" data-slide-number="2"><img src="http://placehold.it/930x400&text=Knob Sticks" width="930"/></div>
                                         <div class="item" data-slide-number="3"><img src="http://placehold.it/930x400&text=Staffs" width="930" /></div>
-                                        <div class="item" data-slide-number="4"><img src="http://placehold.it/930x400&text=Short Sticks" width="930" /></div>
+                                        <div class="item" data-slide-number="4">
+                                        	<img src="img/shorts.jpg" alt="Short Sticks" width="930" height="600">
+                                        </div>
                                     </div>
 									<div class="visible-phone">
 		                                <a class="carousel-control left" href="#myCarousel" data-slide="prev">‹</a>
@@ -327,12 +333,12 @@ function get_data($var) {
 	                    <ul class="thumbnails">
 	                    	<li class="span2">
 	                            <a class="thumbnail" id="carousel-selector-0">
-	                                <img src="http://placehold.it/170x100&text=Shepherds’ Crooks" />
+	                            	<img src="img/crooks-sm.jpg" alt="Shepherds' Crooks" width="170" height="100">
 	                            </a>
 	                        </li>
 	                        <li class="span2">
 	                            <a class="thumbnail" id="carousel-selector-1">
-	                                <img src="http://placehold.it/170x100&text=Thumb Sticks" />
+	                            	<img src="img/thumbs-sm.jpg" alt="Thumb Sticks" width="170" height="100">
 	                            </a>
 	                        </li>
 	                        <li class="span2">
@@ -347,7 +353,7 @@ function get_data($var) {
 	                        </li>
 	                        <li class="span2">
 	                            <a class="thumbnail" id="carousel-selector-4">
-	                                <img src="http://placehold.it/170x100&text=Short Sticks" />
+	                            	<img src="img/shorts-sm.jpg" alt="Short Sticks" width="170" height="100">
 	                            </a>
 	                        </li>
 	                    </ul>
@@ -369,31 +375,31 @@ function get_data($var) {
 				<div class="row">
 					<div class="span2 offset1">
 						<div class="aligncenter">
-							<img src="http://placehold.it/200x200&text=1" class="img-circle">
+							<img src="http://placehold.it/200x200&text=image" class="img-circle">
 							<h3>Antler Pieces</h3>
 						</div>
 					</div>
 					<div class="span2">
 						<div class="aligncenter">
-							<img src="http://placehold.it/200x200&text=2" class="img-circle">
+							<img src="img/sundries/ramshorn.jpg" alt="Rams' horn" width="200" height="200" class="img-circle">
 							<h3>Rams’ horn</h3>
 						</div>
 					</div>
 					<div class="span2">
 						<div class="aligncenter">
-							<img src="http://placehold.it/200x200&text=3" class="img-circle">
+							<img src="http://placehold.it/200x200&text=image" class="img-circle">
 							<h3>Buffalo horn</h3>
 						</div>
 					</div>
 					<div class="span2">
 						<div class="aligncenter">
-							<img src="http://placehold.it/200x200&text=4" class="img-circle">
+							<img src="img/sundries/wooden-handles.jpg" alt="Wooden handles" width="200" height="200" class="img-circle">
 							<h3>Wooden handles</h3>
 						</div>
 					</div>
 					<div class="span2">
 						<div class="aligncenter">
-							<img src="http://placehold.it/200x200&text=5" class="img-circle">
+							<img src="img/sundries/shanks.jpg" alt="Stick Shanks" width="200" height="200" class="img-circle">
 							<h3>Stick shanks</h3>
 							<p>various types of wood, ie. hazel, ash, blackthorn</p>
 						</div>
@@ -402,32 +408,32 @@ function get_data($var) {
 				<div class="row">
 					<div class="span2 offset1">
 						<div class="aligncenter">
-							<img src="http://placehold.it/200x200&text=6" class="img-circle">
+							<img src="img/sundries/antler-thumbs.jpg" alt="Antler thumb heads" width="200" height="200" class="img-circle">
 							<h3>Wooden and antler thumb heads</h3>
 						</div>
 					</div>
 					<div class="span2">
 						<div class="aligncenter">
-							<img src="http://placehold.it/200x200&text=7" class="img-circle">
+							<img src="img/sundries/ferrules.jpg" alt="Ferrules" width="200" height="200" class="img-circle">
 							<h3>Ferrules</h3>
 							<p>brass, rubber & alpine</p>
 						</div>
 					</div>
 					<div class="span2">
 						<div class="aligncenter">
-							<img src="http://placehold.it/200x200&text=8" class="img-circle">
+							<img src="http://placehold.it/200x200&text=image" class="img-circle">
 							<h3>Ready made sticks for finishing </h3>
 						</div>
 					</div>
 					<div class="span2">
 						<div class="aligncenter">
-							<img src="http://placehold.it/200x200&text=9" class="img-circle">
+							<img src="img/sundries/whistles.jpg" alt="Antler Wistles" width="200" height="200" class="img-circle">
 							<h3>Antler Whistles</h3>
 						</div>
 					</div>
 					<div class="span2">
 						<div class="aligncenter">
-							<img src="http://placehold.it/200x200&text=10" class="img-circle">
+							<img src="http://placehold.it/200x200&text=image" class="img-circle">
 							<h3>Leather Aprons</h3>
 						</div>
 					</div>
@@ -456,7 +462,7 @@ function get_data($var) {
 						</blockquote>
 					</div>
 					<div class="span5 aligncenter">
-						<img src="http://placehold.it/300x300&text=image">
+						<img src="img/workshop.jpg" alt="Workshop" width="300" height="300">
 					</div>
 			</div>
 		</section><!-- End Feedback Section -->
@@ -471,7 +477,7 @@ function get_data($var) {
 				<div class="container">
 					<div class="row">
 						<div class="span4 aligncenter">
-							<img src="http://placehold.it/200x200&text=image">
+							<img src="img/hammer.jpg" alt="Hammer" width="300" height="200">
 						</div>
 						<div class="span4">
 							<span class="icon-stack icon-3x pull-left">
@@ -497,6 +503,7 @@ function get_data($var) {
 							<address>
 								Tel. 01652 678442
 							</address>
+							<br>
 							<span class="icon-stack icon-3x pull-left">
 								<i class="icon-circle icon-stack-base"></i>
 								<i class="icon-envelope icon-light"></i>
@@ -531,8 +538,9 @@ function get_data($var) {
 							<div class="row">
 								<label class="control-label span2" for="email">E-mail:</label>
 							   	<div class="controls span6">
-							   		<input type="email" name="email" id="email" value="<?php get_data("email"); ?>" placeholder="john_doe@example.com" required />
-							        <span class="form_hint">Proper format "name@something.com"</span>
+							   		<input type="email" name="email" id="email" value="<?php get_data("email"); ?>" placeholder="john_doe@example.com" data-toggle="popover" title="" data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title" required />
+							   		<div class="popover fade right in"><div class="arrow"></div><h3 class="popover-title">A Title</h3><div class="popover-content">And here's some amazing content. It's very engaging. right?</div></div>
+							        <!--<span class="form_hint">Proper format "name@something.com"</span>-->
 							   	</div>
 							</div>
 							<div class="row">
@@ -550,7 +558,7 @@ function get_data($var) {
 						</form><!-- End of Contact Form -->
 					</div>
 					<div class="span4">
-						<img src="http://placehold.it/300x350&text=image">
+						<img src="img/making2.jpg" alt="Dominic Suddaby" width="300" height="350">
 					</div>	
 				</div>
 			</div>	
@@ -601,7 +609,7 @@ function get_data($var) {
 		      if (visible) {
 		        $(this).stop().animate({ opacity: 1 });
 		      } else {
-		        /* $(this).stop().animate({ opacity: 0 }); */
+		        $(this).stop().animate({ opacity: 0 });
 		      }
 		    });
 		</script>
