@@ -186,6 +186,43 @@ section.gallery {
 	display: inline;
 }
 
+// Caption for text below images
+// -----------------------------
+
+.thumbnail {
+	position: relative;
+	cursor: pointer;
+}
+
+.sliderthumb-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 13px;
+  padding-top: 5px;
+  height: 45px;
+}
+
+.sliderthumb-caption.single {
+	padding-top: 15px;
+	height: 33px;
+}
+
+.sliderthumb-caption h4,
+.sliderthumb-caption p {
+  color: @white;
+  text-shadow: 1px 1px 0px #333;
+  line-height: @baseLineHeight;
+  text-align: center;
+}
+.sliderthumb-caption h4 {
+  margin: 0 0 5px;
+}
+.sliderthumb-caption p {
+  margin-bottom: 0;
+}
+
+
 /* Section Sundries  */
 section.sundries {
 	background: transparent;

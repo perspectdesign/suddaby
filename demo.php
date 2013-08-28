@@ -307,14 +307,31 @@ function get_data($var) {
                                     <div class="carousel-inner aligncenter">
                                     	<div class="active item" data-slide-number="0">
                                     		<img src="img/crooks.jpg" alt="Shepherds' Crooks" width="930" height="600">
+                                    		<div class="carousel-caption">
+	                                    		<h3>Shepherds' Crooks</h3>
+	                                    		<p>A short description of shepherds crooks</p>
+                                    		</div>
                                     	</div>
                                         <div class="item" data-slide-number="1">
                                         	<img src="img/thumbs.jpg" alt="Thumb Sticks" width="930" height="600">
+                                        	<div class="carousel-caption">
+	                                    		<h3>Thumb Sticks</h3>
+	                                    		<p>A short description of thumb sticks</p>
+                                    		</div>
                                         </div>
-                                        <div class="item" data-slide-number="2"><img src="http://placehold.it/930x400&text=Knob Sticks" width="930"/></div>
-                                        <div class="item" data-slide-number="3"><img src="http://placehold.it/930x400&text=Staffs" width="930" /></div>
-                                        <div class="item" data-slide-number="4">
+                                        <div class="item" data-slide-number="2">
+                                        	<img src="http://placehold.it/930x400&text=Staffs" width="930" />
+                                        	<div class="carousel-caption">
+	                                    		<h3>Staffs</h3>
+	                                    		<p>A short description of staffs</p>
+                                    		</div>
+                                        </div>
+                                        <div class="item" data-slide-number="3">
                                         	<img src="img/shorts.jpg" alt="Short Sticks" width="930" height="600">
+                                        	<div class="carousel-caption">
+	                                    		<h3>Short Sticks</h3>
+	                                    		<p>A short description of short sticks</p>
+                                    		</div>
                                         </div>
                                     </div>
 									<div class="visible-phone">
@@ -328,32 +345,39 @@ function get_data($var) {
                 </div> <!--/Slider-->
 
                 <div class="row hidden-phone" id="slider-thumbs">
-                	<div class="span10 offset1">
+                	<div class="span10 offset2">
 	                	<!-- Bottom switcher of slider -->
 	                    <ul class="thumbnails">
 	                    	<li class="span2">
 	                            <a class="thumbnail" id="carousel-selector-0">
 	                            	<img src="img/crooks-sm.jpg" alt="Shepherds' Crooks" width="170" height="100">
+	                            	<div class="sliderthumb-caption">
+	                                    <h4>Shepherds' Crooks</h4>
+                                    </div>
 	                            </a>
 	                        </li>
 	                        <li class="span2">
 	                            <a class="thumbnail" id="carousel-selector-1">
 	                            	<img src="img/thumbs-sm.jpg" alt="Thumb Sticks" width="170" height="100">
+	                            	<div class="sliderthumb-caption single">
+	                                    <h4>Thumb Sticks</h4>
+                                    </div>
 	                            </a>
 	                        </li>
 	                        <li class="span2">
 	                            <a class="thumbnail" id="carousel-selector-2">
-	                                <img src="http://placehold.it/170x100&text=Knob Sticks" />
+	                                <img src="http://placehold.it/170x100" />
+	                                <div class="sliderthumb-caption single">
+	                                    <h4>Staffs</h4>
+                                    </div>
 	                            </a>
 	                        </li>
 	                        <li class="span2">
 	                            <a class="thumbnail" id="carousel-selector-3">
-	                                <img src="http://placehold.it/170x100&text=Staffs" />
-	                            </a>
-	                        </li>
-	                        <li class="span2">
-	                            <a class="thumbnail" id="carousel-selector-4">
 	                            	<img src="img/shorts-sm.jpg" alt="Short Sticks" width="170" height="100">
+	                            	<div class="sliderthumb-caption single">
+	                                    <h4>Short Sticks</h4>
+                                    </div>
 	                            </a>
 	                        </li>
 	                    </ul>

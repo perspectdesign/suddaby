@@ -861,7 +861,13 @@ a.label:hover,a.label:focus,a.badge:hover,a.badge:focus{color:#fff;text-decorati
 .carousel-control:hover,.carousel-control:focus{color:#fff;text-decoration:none;opacity:.9;filter:alpha(opacity=90)}
 .carousel-indicators{position:absolute;top:15px;right:15px;z-index:5;margin:0;list-style:none}.carousel-indicators li{display:block;float:left;width:10px;height:10px;margin-left:5px;text-indent:-999px;background-color:#ccc;background-color:rgba(255,255,255,0.25);border-radius:5px}
 .carousel-indicators .active{background-color:#fff}
-.carousel-caption{position:absolute;left:0;right:0;bottom:0;padding:15px;background:#333;background:rgba(0,0,0,0.75)}
+.carousel-caption{position:absolute;top:0;left:15px;right:0;padding:15px;background:none;text-align:left}
+.carousel-caption h3{color:#fff;font-size:2.5em}
+.carousel-caption h4,.carousel-caption p{color:#fff;line-height:20px}
+.carousel-caption h4{margin:0 0 5px}
+.carousel-caption p{margin-bottom:0}
+.carousel-caption{position:absolute;top:0;left:15px;right:0;padding:15px;background:none;text-align:left}
+.carousel-caption h3{color:#fff;font-size:2.5em}
 .carousel-caption h4,.carousel-caption p{color:#fff;line-height:20px}
 .carousel-caption h4{margin:0 0 5px}
 .carousel-caption p{margin-bottom:0}
@@ -901,6 +907,12 @@ section.process{background:#b2bb82}
 section.gallery{background:none}
 .gallery h2{font-family:'Dancing Script',cursive;color:#edb241}
 .carousel-inner>.item>img{text-align:center;display:inline}
+.thumbnail{position:relative;cursor:pointer}
+.sliderthumb-caption{position:absolute;left:0;right:0;top:13px;padding-top:5px;height:45px}
+.sliderthumb-caption.single{padding-top:15px;height:33px}
+.sliderthumb-caption h4,.sliderthumb-caption p{color:#fff;text-shadow:1px 1px 0 #333;line-height:20px;text-align:center}
+.sliderthumb-caption h4{margin:0 0 5px}
+.sliderthumb-caption p{margin-bottom:0}
 section.sundries{background:transparent}
 .sundries h2.italic{font-family:'Dancing Script',cursive;color:#7c8103}
 section.sundries .intro{padding-bottom:50px}
