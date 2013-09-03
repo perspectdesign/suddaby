@@ -198,19 +198,14 @@ section.gallery {
   position: absolute;
   left: 0;
   right: 0;
-  top: 13px;
+  top: 35px;
   padding-top: 5px;
   height: 45px;
 }
 
-.sliderthumb-caption.single {
-	padding-top: 15px;
-	height: 33px;
-}
-
 .sliderthumb-caption h4,
 .sliderthumb-caption p {
-  color: @white;
+  color: @unripe;
   text-shadow: 1px 1px 0px #333;
   line-height: @baseLineHeight;
   text-align: center;
@@ -247,7 +242,7 @@ section.sundries p.lead {
 
 /* Section Feedback */
 section.feedback {
-	background: @desk;
+	background: @missu;
 }
 
 .feedback h2.italic {
@@ -267,11 +262,11 @@ section.contact {
 
 .contact h2.italic {
 	font-family: @altFontFamily;
-	color: @missu;
+	color: @unripe;
 }
 
 .contact-details {
-	background: @missu;
+	background: @unripe;
 	padding: 20px 0 20px 0;
 	margin-bottom: 20px;
 }
@@ -312,7 +307,7 @@ section.contact {
 }
 
 .contact_form input, .contact_form textarea { 
-	border:2px solid @missu;
+	border:2px solid @unripe;
 	border-radius: 0;
 	padding-right:30px;
 	padding-bottom: 15px;
@@ -416,8 +411,13 @@ footer {
 	padding: 35px 0 25px 0;
 }
 
-footer p {
+footer p.perspec {
 	text-align: right;
+	font-size: @baseFontSize * 1.2;
+}
+
+footer p.accred {
+	text-align: left;
 	font-size: @baseFontSize * 1.2;
 }
 

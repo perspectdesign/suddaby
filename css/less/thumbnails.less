@@ -27,11 +27,11 @@
 .thumbnail {
   display: block;
   line-height: @baseLineHeight;
-  border: 5px solid @unripe;
+
 }
 // Add a hover/focus state for linked versions only
-a.thumbnail:hover,
-a.thumbnail:focus {
+.thumbnail > img:hover,
+.thumbnail > img:focus {
   border: 5px solid @desk;
 }
 
@@ -41,6 +41,7 @@ a.thumbnail:focus {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
+  border: 5px solid @unripe;
 }
 .thumbnail .caption {
   padding: 9px;

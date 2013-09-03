@@ -520,7 +520,7 @@ input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"
 .btn-info:active,.btn-info.active{background-color:#24748c \9}
 .btn-inverse{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,0.25);background-color:#363636;background-image:-moz-linear-gradient(top, #444, #222);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#444), to(#222));background-image:-webkit-linear-gradient(top, #444, #222);background-image:-o-linear-gradient(top, #444, #222);background-image:linear-gradient(to bottom, #444, #222);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff444444', endColorstr='#ff222222', GradientType=0);border-color:#222 #222 #000;border-color:rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);*background-color:#222;filter:progid:DXImageTransform.Microsoft.gradient(enabled = false)}.btn-inverse:hover,.btn-inverse:focus,.btn-inverse:active,.btn-inverse.active,.btn-inverse.disabled,.btn-inverse[disabled]{color:#fff;background-color:#222;*background-color:#151515}
 .btn-inverse:active,.btn-inverse.active{background-color:#080808 \9}
-.btn-submit{background:#b2bb82}
+.btn-submit{background:#edb241}
 button.btn,input[type="submit"].btn{*padding-top:3px;*padding-bottom:3px}button.btn::-moz-focus-inner,input[type="submit"].btn::-moz-focus-inner{padding:0;border:0}
 button.btn.btn-large,input[type="submit"].btn.btn-large{*padding-top:7px;*padding-bottom:7px}
 button.btn.btn-small,input[type="submit"].btn.btn-small{*padding-top:3px;*padding-bottom:3px}
@@ -798,9 +798,9 @@ button.btn.btn-mini,input[type="submit"].btn.btn-mini{*padding-top:1px;*padding-
 .thumbnails:after{clear:both}
 .row-fluid .thumbnails{margin-left:0}
 .thumbnails>li{float:left;margin-bottom:20px;margin-left:20px}
-.thumbnail{display:block;line-height:20px;border:5px solid #edb241}
-a.thumbnail:hover,a.thumbnail:focus{border:5px solid #9c8964}
-.thumbnail>img{display:block;max-width:100%;margin-left:auto;margin-right:auto}
+.thumbnail{display:block;line-height:20px}
+.thumbnail>img:hover,.thumbnail>img:focus{border:5px solid #9c8964}
+.thumbnail>img{display:block;max-width:100%;margin-left:auto;margin-right:auto;border:5px solid #edb241}
 .thumbnail .caption{padding:9px;color:#555}
 .media,.media-body{overflow:hidden;*overflow:visible;zoom:1}
 .media,.media .media{margin-top:15px}
@@ -908,9 +908,8 @@ section.gallery{background:none}
 .gallery h2{font-family:'Dancing Script',cursive;color:#edb241}
 .carousel-inner>.item>img{text-align:center;display:inline}
 .thumbnail{position:relative;cursor:pointer}
-.sliderthumb-caption{position:absolute;left:0;right:0;top:13px;padding-top:5px;height:45px}
-.sliderthumb-caption.single{padding-top:15px;height:33px}
-.sliderthumb-caption h4,.sliderthumb-caption p{color:#fff;text-shadow:1px 1px 0 #333;line-height:20px;text-align:center}
+.sliderthumb-caption{position:absolute;left:0;right:0;top:35px;padding-top:5px;height:45px}
+.sliderthumb-caption h4,.sliderthumb-caption p{color:#edb241;text-shadow:1px 1px 0 #333;line-height:20px;text-align:center}
 .sliderthumb-caption h4{margin:0 0 5px}
 .sliderthumb-caption p{margin-bottom:0}
 section.sundries{background:transparent}
@@ -918,12 +917,12 @@ section.sundries{background:transparent}
 section.sundries .intro{padding-bottom:50px}
 section.sundries p{text-align:center}
 section.sundries p.lead{text-align:justify}
-section.feedback{background:#9c8964}
+section.feedback{background:#b2bb82}
 .feedback h2.italic{font-family:'Dancing Script',cursive;color:#fff}
 .feedback blockquote,.feedback blockquote small{color:#fff}
 section.contact{background:#fff}
-.contact h2.italic{font-family:'Dancing Script',cursive;color:#b2bb82}
-.contact-details{background:#b2bb82;padding:20px 0 20px 0;margin-bottom:20px}
+.contact h2.italic{font-family:'Dancing Script',cursive;color:#edb241}
+.contact-details{background:#edb241;padding:20px 0 20px 0;margin-bottom:20px}
 .contact-details a{color:#fff}
 .contact-details a:hover{color:#000}
 *:focus{outline:none}
@@ -931,7 +930,7 @@ section.contact{background:#fff}
 .required_notification{color:#d45252;margin:5px 0 10px 0;display:inline;float:left}
 .message{margin-top:20px}
 .contact_form label{text-align:right;font-size:16.8px;padding-top:8px}
-.contact_form input,.contact_form textarea{border:2px solid #b2bb82;border-radius:0;padding-right:30px;padding-bottom:15px;-moz-transition:padding .25s;-webkit-transition:padding .25s;-o-transition:padding .25s;transition:padding .25s;resize:none;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;width:100%}
+.contact_form input,.contact_form textarea{border:2px solid #edb241;border-radius:0;padding-right:30px;padding-bottom:15px;-moz-transition:padding .25s;-webkit-transition:padding .25s;-o-transition:padding .25s;transition:padding .25s;resize:none;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;width:100%}
 .contact_form input{padding-top:15px}
 .contact_form input:focus,.contact_form textarea:focus{border:2px solid #b2bb82}
 .contact_form input:required,.contact_form textarea:required{background:#fff url(../img/red_asterisk.png) no-repeat 98% center}
@@ -946,7 +945,8 @@ input.submit{background-color:#68b12f;background:-webkit-gradient(linear, left t
 input.submit:hover{opacity:.85;cursor:pointer}
 input.submit:active{border:1px solid #20911e;box-shadow:0 0 10px 5px #356b0b inset;-webkit-box-shadow:0 0 10px 5px #356b0b inset;-moz-box-shadow:0 0 10px 5px #356b0b inset;-ms-box-shadow:0 0 10px 5px #356b0b inset;-o-box-shadow:0 0 10px 5px #356b0b inset}
 footer{background:#b2bb82;padding:35px 0 25px 0}
-footer p{text-align:right;font-size:16.8px}
+footer p.perspec{text-align:right;font-size:16.8px}
+footer p.accred{text-align:left;font-size:16.8px}
 footer a{color:#fff}
 footer a:hover{color:#9c8964}
 .pull-right{float:right}

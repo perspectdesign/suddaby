@@ -178,13 +178,14 @@ function get_data($var) {
                             <li><a href="#process">The Process</a></li>
                             <li><a href="#gallery">Gallery</a></li>
                             <li><a href="#sundries">Sundries</a></li>
+                            <li><a href="#shows">Shows</a></li>
                             <li><a href="#feedback">Feedback</a></li>
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div><!--/.nav-collapse -->
                 </div>
             </div>
-                    			<?php
+        <?php
 			if (!empty($error_msg)) {
 				echo '<div class="container message"><div class="alert alert-error"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Error: </strong> '. implode("<br />", $error_msg) . "</div></div>";
 			}
@@ -201,9 +202,9 @@ function get_data($var) {
 				<div class="row">
 					<div class="span6">
 						<h2>Welcome to Dominic Suddaby Hand Made Walking Sticks</h2>
-						<p class="lead"><strong>Dominic Suddaby</strong> has been hand-making walking sticks and demonstrating his craft at country shows for over 25 years.</p>
+						<p class="lead"><strong>Dominic Suddaby</strong> has been hand-making walking sticks and demonstrating his craft at country shows for over 25 years, supplying sticks to numerous UK and international customers.</p>
 						<p>Based in his workshop in rural Lincolnshire, Dominic collects, seasons and fashions a range of fine traditional sticks using natural materials such as rams’ horn, deer antler and natural wood formations such as gnarled roots and ‘twisties’.</p>
-						<p>The sticks fall into five broad categories: shepherds’ crooks, thumb sticks, short sticks, knob sticks and staffs but each one is entirely unique due to the natural materials used and the care that Dominic applies to matching heads to shanks to produce balanced and beautiful pieces that feel good in the hand and are strong enough to withstand the rigours of country life.</p>
+						<p>The sticks fall into four broad categories: shepherds’ crooks, thumb sticks, staffs and short sticks with each stick being entirely unique due to the natural materials used. Dominic carefully matches each head and shank to produce balanced and beautiful pieces that feel good in the hand and are strong enough to withstand the rigours of country life.</p>
 					</div>
 					<div class="span6 alignright">
 						<img src="img/dominic.jpg" alt="Dominic Suddaby" width="400" height="533">
@@ -246,7 +247,7 @@ function get_data($var) {
 										</div>
 										<div class="span5">
 											<h2>1. Cutting or Harvesting</h2>
-											<p>During the winter months Dominic <strong>scours local woodlands</strong> for suitable saplings and ‘formations’. He likes to work with Hazel, Blackthorn, Ash and Holly, and keeps a particular look-out for what he calls <strong>“twisties”</strong> – these are spiral sticks created by Honeysuckle.</p>
+											<p>During the winter months Dominic <strong>scours local woodlands</strong> for suitable saplings and ‘formations’, coppicing carefully to ensure sustainability. He likes to work with Hazel, Blackthorn, Ash and Holly, and keeps a particular look-out for what he calls <strong>“twisties”</strong> – these are spiral sticks created when Honeysuckle grows around a young sapling.</p>
 										</div>
 									</div>
 								</div>
@@ -268,7 +269,7 @@ function get_data($var) {
 										</div>
 										<div class="span6">
 											<h2>3. Making the Stick</h2>
-											<p>This is where the stickmaker’s skill and experience really come to the fore.  Most sticks are made from two pieces, the head (handle) and the shank. Dominic will <strong>carefully match two pieces that complement each other</strong> and are balanced so that they look beautiful but also feel good in the hand. The <strong>shank will be straightened through steaming</strong>, and <strong>peeled</strong> or <strong>shaped</strong> as necessary, then <strong>joined to the head</strong>.  A <strong>brass ferrule is added</strong> to the end of each stick to save it from wear and tear.</p>
+											<p>This is where the stickmaker’s skill and experience really come to the fore.  Most sticks are made from two pieces, the head (handle) and the shank. Dominic will <strong>carefully match two pieces that complement each other</strong> and are balanced so that they look beautiful but also feel good in the hand. The <strong>shank will be straightened through steaming</strong>, and <strong>peeled</strong> or <strong>shaped</strong> as required. A <strong>ferrule (usually brass) is added</strong> to the end of each stick to save it from wear and tear.</p>
 										</div>
 									</div>
 								</div>
@@ -276,7 +277,7 @@ function get_data($var) {
 									<div class="row-fluid clearfix">
 										<div class="span5">
 											<h2>4. Finishing</h2>
-											<p>The stick will be <strong>finished by hand</strong>, sanding and shaping it to give a smooth finish.  Sometimes stains are used to enhance and bring out the natural colours in the wood. Finally, it is <strong>given several coats of yacht varnish</strong> to ensure it is truly weatherproof.</p>
+											<p>The stick is <strong>finished by hand</strong>, sanding and shaping it to give a smooth finish.  Sometimes stains are used to enhance and bring out the natural colours in the wood. Finally, it is <strong>given several coats of yacht varnish</strong> to ensure it is truly weatherproof.</p>
 										</div>
 										<div class="span7 aligncenter">
 											<img src="http://placehold.it/450x300&text=Finishing" width="450">
@@ -288,101 +289,99 @@ function get_data($var) {
 							<a class="carousel-control right" href="#process-slider" data-slide="next">&rsaquo;</a>
 						</div>
 					</div>
+				</div>
 			</div>
 		</section><!-- End The Process Section -->
-		
+
 		<!-- Gallery Section -->
 		<section class="gallery" id="gallery">
 			<div class="container">
 				<h2>Gallery</h2>
-				<p class="lead">There are five main categories, and within each category the shanks can be made from different woods, and be either ‘straight’ or ‘twisty’. The photos below show just some of the permutations (combinations) available.   The height of the sticks varies but a long stick can easily be shortened to suit.  Sadly, we cannot do the reverse!</p>
+				<p class="lead">There are four main categories, and within each category the shanks can be made from different woods, and be either ‘straight’ or ‘twisty’. The photos below show just some of the permutations (combinations) available. The height of the sticks varies but a long stick can easily be shortened to suit.  Sadly, we cannot do the reverse! The photos below show just some examples.</p>
                 <!-- Slider -->
                 <div class="row">
                 	<div class="span12" id="slider">
                     	<!-- Top part of the slider -->
                         <div class="row">
-                        	<div class="span12" id="carousel-bounding-box">
+                        	<div class="span8" id="carousel-bounding-box">
                             	<div id="myCarousel" class="carousel slide">
                                 	<!-- Carousel items -->
-                                    <div class="carousel-inner aligncenter">
-                                    	<div class="active item" data-slide-number="0">
-                                    		<img src="img/crooks.jpg" alt="Shepherds' Crooks" width="930" height="600">
-                                    		<div class="carousel-caption">
-	                                    		<h3>Shepherds' Crooks</h3>
-	                                    		<p>A short description of shepherds crooks</p>
-                                    		</div>
-                                    	</div>
-                                        <div class="item" data-slide-number="1">
-                                        	<img src="img/thumbs.jpg" alt="Thumb Sticks" width="930" height="600">
-                                        	<div class="carousel-caption">
-	                                    		<h3>Thumb Sticks</h3>
-	                                    		<p>A short description of thumb sticks</p>
-                                    		</div>
-                                        </div>
-                                        <div class="item" data-slide-number="2">
-                                        	<img src="http://placehold.it/930x400&text=Staffs" width="930" />
-                                        	<div class="carousel-caption">
-	                                    		<h3>Staffs</h3>
-	                                    		<p>A short description of staffs</p>
-                                    		</div>
-                                        </div>
-                                        <div class="item" data-slide-number="3">
-                                        	<img src="img/shorts.jpg" alt="Short Sticks" width="930" height="600">
-                                        	<div class="carousel-caption">
-	                                    		<h3>Short Sticks</h3>
-	                                    		<p>A short description of short sticks</p>
-                                    		</div>
-                                        </div>
+                                    <div class="carousel-inner">
+                                    	<div class="active item" data-slide-number="0"><img src="img/gallery/crooks.jpg" alt="Crooks" width="770" height="517"></div>
+                                        <div class="item" data-slide-number="1"><img src="img/gallery/thumbs.jpg" alt="Thumb Sticks" width="770" height="517"></div>
+                                        <div class="item" data-slide-number="2"><img src="img/gallery/staffs.jpg" alt="Staffs" width="770" height="517"></div>
+                                        <div class="item" data-slide-number="3"><img src="img/gallery/shorts.jpg" alt="Shorts" width="770" height="517"></div>
                                     </div>
-									<div class="visible-phone">
-		                                <a class="carousel-control left" href="#myCarousel" data-slide="prev">‹</a>
-		                                <a class="carousel-control right" href="#myCarousel" data-slide="next">›</a>
-									</div>
-	                            </div>
-	                        </div>
+                                    <!-- Carousel nav -->
+                                    <a class="carousel-control left visible-phone" href="#myCarousel" data-slide="prev">‹</a>
+                                    <a class="carousel-control right visible-phone" href="#myCarousel" data-slide="next">›</a>
+								</div>
+							</div>
+							<div class="span4" id="carousel-text"></div>
+							<div style="display: none;" id="slide-content">
+								<div id="slide-content-0">
+									<h2>Shepherds' Crooks</h2>
+									<p>As the name suggests, these are sticks with 'crook' handles originally used by shepherds but popular today with farmers, shooters and walkers. The head can be wooden (turned or natural) or made from rams' horn, or black buffalo horn.</p>
+								</div>
+								<div id="slide-content-1">
+									<h2>Thumb Sticks</h2>
+									<p>hese have a "V" shaped head and are also known as 'snake sticks'. Dominic likes to make the head from natural wooden pieces or deer antler but a few are also made from turned wood and buffalo horn. Occasionally, a piece lends itself to having one half of the 'V' made into a whistle.</p>
+								</div>
+								<div id="slide-content-2">
+									<h2>Staffs</h2>
+									<p>The traditional hiking stick of the countryman usually has a knob or antler head. They vary in height from the waist to, most typically, the chest.</p>
+								</div>
+								<div id="slide-content-3">
+									<h2>Short Sticks</h2>
+									<p>These tend to be sticks up to waist height with a knob or horizontal handle, used to give support when walking. They can be made with wooden handles (either natural pieces or turned polished tops), deer antler, rams' horn and buffalo horn.</p>
+								</div>
+							</div>
 						</div>
-	                </div>
-                </div> <!--/Slider-->
 
-                <div class="row hidden-phone" id="slider-thumbs">
-                	<div class="span10 offset2">
-	                	<!-- Bottom switcher of slider -->
-	                    <ul class="thumbnails">
-	                    	<li class="span2">
+					</div>
+				</div> <!--/Slider-->
+ 
+				<div class="row hidden-phone" id="slider-thumbs">
+					<div class="span12">
+						<!-- Bottom switcher of slider -->
+						<ul class="thumbnails">
+							<li class="span3">
 	                            <a class="thumbnail" id="carousel-selector-0">
 	                            	<img src="img/crooks-sm.jpg" alt="Shepherds' Crooks" width="170" height="100">
 	                            	<div class="sliderthumb-caption">
 	                                    <h4>Shepherds' Crooks</h4>
                                     </div>
 	                            </a>
-	                        </li>
-	                        <li class="span2">
+							</li>
+							<li class="span3">
 	                            <a class="thumbnail" id="carousel-selector-1">
 	                            	<img src="img/thumbs-sm.jpg" alt="Thumb Sticks" width="170" height="100">
-	                            	<div class="sliderthumb-caption single">
+	                            	<div class="sliderthumb-caption">
 	                                    <h4>Thumb Sticks</h4>
                                     </div>
 	                            </a>
-	                        </li>
-	                        <li class="span2">
+							</li>
+							<li class="span3">
 	                            <a class="thumbnail" id="carousel-selector-2">
-	                                <img src="http://placehold.it/170x100" />
-	                                <div class="sliderthumb-caption single">
+	                                <img src="img/staffs-sm.jpg" alt="Staffs" width="170" height="100">
+	                                <div class="sliderthumb-caption">
 	                                    <h4>Staffs</h4>
                                     </div>
 	                            </a>
-	                        </li>
-	                        <li class="span2">
+							</li>
+							<li class="span3">
 	                            <a class="thumbnail" id="carousel-selector-3">
 	                            	<img src="img/shorts-sm.jpg" alt="Short Sticks" width="170" height="100">
-	                            	<div class="sliderthumb-caption single">
+	                            	<div class="sliderthumb-caption">
 	                                    <h4>Short Sticks</h4>
                                     </div>
 	                            </a>
-	                        </li>
-	                    </ul>
-                	</div>
-                </div>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+                <p class="lead"><strong>Because our sticks are all unique we do not offer online shopping, but if you would like to buy a stick, please contact us to discuss your requirements so that we can help you select the ideal one for you.</strong></p>
 			</div>
 		</section><!-- End Gallery Section -->
 		
@@ -397,74 +396,124 @@ function get_data($var) {
 					</div>
 				</div>
 				<div class="row">
-					<div class="span2 offset1">
+					<div class="span3">
 						<div class="aligncenter">
-							<img src="http://placehold.it/200x200&text=image" class="img-circle">
-							<h3>Antler Pieces</h3>
+							<img src="img/sundries/shanks2.jpg" alt="Stick Shanks" width="200" height="200" class="img-circle">
+							<h3>Shanks</h3>
+							<p>(straight, twisty, hazel, ash, blackthorne)</p>
 						</div>
 					</div>
-					<div class="span2">
+					<div class="span3">
+						<div class="aligncenter">
+							<img src="http://placehold.it/200x200&text=image" class="img-circle">
+							<h3>Ready made sticks</h3>
+						</div>
+					</div>
+					<div class="span3">
+						<div class="aligncenter">
+							<img src="img/sundries/whistles.jpg" alt="Antler Wistles" width="200" height="200" class="img-circle">
+							<h3>Antler whistles</h3>
+						</div>
+					</div>
+					<div class="span3">
+						<div class="aligncenter">
+							<img src="img/sundries/aprons.jpg" alt="aprons" width="200" height="200" class="img-circle">
+							<h3>Suede aprons</h3>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span3">
+						<div class="aligncenter">
+							<img src="img/sundries/leather-straps.jpg" alt="Leather straps" width="200" height="200" class="img-circle">
+							<h3>Leather straps</h3>
+						</div>
+					</div>
+					<div class="span3">
+						<div class="aligncenter">
+							<img src="img/sundries/ferrules2.jpg" alt="Ferrules" width="200" height="200" class="img-circle">
+							<h3>Ferrules</h3>
+						</div>
+					</div>
+					<div class="span3">
+						<div class="aligncenter">
+							<img src="img/sundries/wooden-handles2.jpg" alt="Wooden handles" width="200" height="200" class="img-circle">
+							<h3>Wooden handles</h3>
+							<p>(turned)</p>
+						</div>
+					</div>
+					<div class="span3">
+						<div class="aligncenter">
+							<img src="img/sundries/antler-heads.jpg" alt="Antler heads" width="200" height="200" class="img-circle">
+							<h3>Antler heads</h3>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span3">
+						<div class="aligncenter">
+							<img src="img/sundries/buffalo-horn.jpg" alt="Buffalo horn" width="200" height="200" class="img-circle">
+							<h3>Buffalo & Cow horn pieces</h3>
+						</div>
+					</div>
+					<div class="span3">
 						<div class="aligncenter">
 							<img src="img/sundries/ramshorn.jpg" alt="Rams' horn" width="200" height="200" class="img-circle">
 							<h3>Rams’ horn</h3>
 						</div>
 					</div>
-					<div class="span2">
+					<div class="span3">
 						<div class="aligncenter">
-							<img src="http://placehold.it/200x200&text=image" class="img-circle">
-							<h3>Buffalo horn</h3>
+							<img src="img/sundries/thumb-heads.jpg" alt="Thumb heads" width="200" height="200" class="img-circle">
+							<h3>Thumb heads</h3>
+							<p>(natural wood & antler)</p>
 						</div>
 					</div>
-					<div class="span2">
+					<div class="span3">
 						<div class="aligncenter">
-							<img src="img/sundries/wooden-handles.jpg" alt="Wooden handles" width="200" height="200" class="img-circle">
-							<h3>Wooden handles</h3>
-						</div>
-					</div>
-					<div class="span2">
-						<div class="aligncenter">
-							<img src="img/sundries/shanks.jpg" alt="Stick Shanks" width="200" height="200" class="img-circle">
-							<h3>Stick shanks</h3>
-							<p>various types of wood, ie. hazel, ash, blackthorn</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="span2 offset1">
-						<div class="aligncenter">
-							<img src="img/sundries/antler-thumbs.jpg" alt="Antler thumb heads" width="200" height="200" class="img-circle">
-							<h3>Wooden and antler thumb heads</h3>
-						</div>
-					</div>
-					<div class="span2">
-						<div class="aligncenter">
-							<img src="img/sundries/ferrules.jpg" alt="Ferrules" width="200" height="200" class="img-circle">
-							<h3>Ferrules</h3>
-							<p>brass, rubber & alpine</p>
-						</div>
-					</div>
-					<div class="span2">
-						<div class="aligncenter">
-							<img src="http://placehold.it/200x200&text=image" class="img-circle">
-							<h3>Ready made sticks for finishing </h3>
-						</div>
-					</div>
-					<div class="span2">
-						<div class="aligncenter">
-							<img src="img/sundries/whistles.jpg" alt="Antler Wistles" width="200" height="200" class="img-circle">
-							<h3>Antler Whistles</h3>
-						</div>
-					</div>
-					<div class="span2">
-						<div class="aligncenter">
-							<img src="http://placehold.it/200x200&text=image" class="img-circle">
-							<h3>Leather Aprons</h3>
+							<img src="img/sundries/antler.jpg" alt="Antler pieces" width="200" height="200" class="img-circle">
+							<h3>Miscellanaeous Antler pieces</h3>
+							<p>(full antlers to small tines)</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section><!-- End Sundries Section -->
-		
+
+		<!-- Shows Section -->
+		<section class="shows" id="shows">
+			<div class="container">
+				<h2 class="italic">Shows</h2>
+				<p class="lead">Dominic has been demonstrating his craft at country shows and game fairs for over 25 years.These are just some of the shows he has attended.</p>
+				<div class="row">
+					<div class="span6">
+						<ul>
+							<li>CLA Game Fair</li>
+							<li>Badminton Horse Trials</li>
+							<li>Burleigh Horse Trials</li>
+							<li>Chatsworth Country show</li>
+							<li>Ely Cathedral Christmas Craft show</li>
+							<li>The Great Yorkshire show</li>
+							<li>Henley show</li>
+							<li>Herts County show </li>
+							<li>Holkham Hall Game Fair</li>
+							<li>Malvern Autumn Fair</li>
+							<li>Newbury show</li>
+							<li>Royal Norfolk show</li>
+							<li>Royal Welsh show</li>
+							<li>Rutland show</li>
+							<li>South of England show (Ardingly)</li>
+							<li>Stonor Park Craft Fair</li>
+							<li>Suffolk show</li>
+						</ul>
+					</div>
+					<div class="span6 aligncenter">
+						<img src="img/making2.jpg" alt="Dominic Suddaby" width="300" height="350">
+					</div>
+			</div>
+		</section><!-- End of Shows Section -->
+
+		<!-- Feedback Section -->
 		<section class="feedback" id="feedback">
 			<div class="container">
 				<h2 class="italic">Feedback from Customers</h2>
@@ -521,15 +570,6 @@ function get_data($var) {
 						<div class="span4">
 							<span class="icon-stack icon-3x pull-left">
 								<i class="icon-circle icon-stack-base"></i>
-								<i class="icon-phone icon-light"></i>
-							</span>
-							<h3>Phone</h3>
-							<address>
-								Tel. 01652 678442
-							</address>
-							<br>
-							<span class="icon-stack icon-3x pull-left">
-								<i class="icon-circle icon-stack-base"></i>
 								<i class="icon-envelope icon-light"></i>
 							</span>
 							<h3>Email</h3>
@@ -576,13 +616,12 @@ function get_data($var) {
 							<div class="row">
 								<div class="controls span2 offset2">
 									<button id="submit" type="submit" class="btn btn-submit" name="submit" value="submit" <?php if (isset($disable) && $disable === true) echo ' disabled="disabled"'; ?>>Send Message</button>
-									<!--<input id="submit" class="submit" type="submit" name="submit" value="Submit" <?php if (isset($disable) && $disable === true) echo ' disabled="disabled"'; ?>>-->
 								</div>
 						    </div>
 						</form><!-- End of Contact Form -->
 					</div>
 					<div class="span4">
-						<img src="img/making2.jpg" alt="Dominic Suddaby" width="300" height="350">
+						<img src="img/shows.jpg" alt="shows" width="300" height="420">
 					</div>	
 				</div>
 			</div>	
@@ -591,67 +630,25 @@ function get_data($var) {
 		<!-- Footer Section -->
         <footer>
         	<div class="container">
-        		<p>&copy; Copyright 2013 <a href="http://www.perspectivedesign.co.uk" target="new">Perspective Design</a></p>
+        		<div class="row">
+        			<div class="span6">
+        				<p class="accred">Images by Jane Rayner Photography / Neil Holmes Photography</p>
+        			</div>
+        			<div class="span6">
+        				<p class="perspec">&copy; Copyright 2013 <a href="http://www.perspectivedesign.co.uk" target="new">Perspective Design</a></p>
+        			</div>
+        		</div>
         	</div>
         </footer><!-- End Footer Section -->
-          
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.js"><\/script>')</script>
+        
+        <script src="js/scripts-ck.js"></script>
 
-        <script src="js/vendor/bootstrap.min.js"></script>
-         <script src="js/vendor/jquery.inview.min.js"></script>
-
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
+		<!-- Google Analytics Code -->
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src='//www.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
         </script>
-        
-        <script>
-		  jQuery(document).ready(function($) {
-		 
-		        $('#process-slider').carousel({
-		                interval: 20000
-		        });
-		 
-		        //Handles the carousel thumbnails
-		        $('[id^=carousel-selector-]').click( function(){
-		                var id_selector = $(this).attr("id");
-		                var id = id_selector.substr(id_selector.length -1);
-		                var id = parseInt(id);
-		                $('#myCarousel').carousel(id);
-		        });		 
-		});
-		</script>
-		
-		<script>
-		    $('.container').bind('inview', function(event, visible) {
-		      if (visible) {
-		        $(this).stop().animate({ opacity: 1 });
-		      } else {
-		        $(this).stop().animate({ opacity: 0 });
-		      }
-		    });
-		</script>
-		  
-		<script>
-		$('#myform').on('submit', function(ev) {
-	    	$('#myModal').modal('show'); 
-	
-	    var data = $(this).serializeObject();
-	    json_data = JSON.stringify(data);
-	    $("#results").text(json_data); 
-	    $(".modal-body").text(json_data); 
-	
-	    // $("#results").text(data);
-	
-	    ev.preventDefault();
-	    });
-	    </script>
-
     </body>
 </html>
