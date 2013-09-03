@@ -16,7 +16,7 @@ jQuery(document).ready(function($) {
 	
 	// Gallery code
     $('#myCarousel').carousel({
-                interval: 5000
+                interval: false
         });
  
     $('#carousel-text').html($('#slide-content-0').html());

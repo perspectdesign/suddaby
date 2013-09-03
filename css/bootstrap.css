@@ -799,7 +799,6 @@ button.btn.btn-mini,input[type="submit"].btn.btn-mini{*padding-top:1px;*padding-
 .row-fluid .thumbnails{margin-left:0}
 .thumbnails>li{float:left;margin-bottom:20px;margin-left:20px}
 .thumbnail{display:block;line-height:20px}
-.thumbnail>img:hover,.thumbnail>img:focus{border:5px solid #9c8964}
 .thumbnail>img{display:block;max-width:100%;margin-left:auto;margin-right:auto;border:5px solid #edb241}
 .thumbnail .caption{padding:9px;color:#555}
 .media,.media-body{overflow:hidden;*overflow:visible;zoom:1}
@@ -912,6 +911,7 @@ section.gallery{background:none}
 .sliderthumb-caption h4,.sliderthumb-caption p{color:#edb241;text-shadow:1px 1px 0 #333;line-height:20px;text-align:center}
 .sliderthumb-caption h4{margin:0 0 5px}
 .sliderthumb-caption p{margin-bottom:0}
+.disclaimer{padding-top:25px}
 section.sundries{background:transparent}
 .sundries h2.italic{font-family:'Dancing Script',cursive;color:#7c8103}
 section.sundries .intro{padding-bottom:50px}

@@ -81,6 +81,10 @@
 						<p class="lead"><strong>Dominic Suddaby</strong> has been hand-making walking sticks and demonstrating his craft at country shows for over 25 years, supplying sticks to numerous UK and international customers.</p>
 						<p>Based in his workshop in rural Lincolnshire, Dominic collects, seasons and fashions a range of fine traditional sticks using natural materials such as rams’ horn, deer antler and natural wood formations such as gnarled roots and ‘twisties’.</p>
 						<p>The sticks fall into four broad categories: shepherds’ crooks, thumb sticks, staffs and short sticks with each stick being entirely unique due to the natural materials used. Dominic carefully matches each head and shank to produce balanced and beautiful pieces that feel good in the hand and are strong enough to withstand the rigours of country life.</p>
+						<div class="well">
+							<h4>Latest News</h4>
+							<p>Dominic has now been featured in Landscape magazine</p>
+							</div>
 					</div>
 					<div class="span6 alignright">
 						<img src="img/dominic.jpg" alt="Dominic Suddaby" width="400" height="533">
@@ -201,7 +205,7 @@
 								</div>
 								<div id="slide-content-1">
 									<h2>Thumb Sticks</h2>
-									<p>hese have a "V" shaped head and are also known as 'snake sticks'. Dominic likes to make the head from natural wooden pieces or deer antler but a few are also made from turned wood and buffalo horn. Occasionally, a piece lends itself to having one half of the 'V' made into a whistle.</p>
+									<p>These have a "V" shaped head and are also known as 'snake sticks'. Dominic likes to make the head from natural wooden pieces or deer antler but a few are also made from turned wood and buffalo horn. Occasionally, a piece lends itself to having one half of the 'V' made into a whistle.</p>
 								</div>
 								<div id="slide-content-2">
 									<h2>Staffs</h2>
@@ -216,48 +220,48 @@
 
 					</div>
 				</div> <!--/Slider-->
- 
-				<div class="row hidden-phone" id="slider-thumbs">
-					<div class="span12">
-						<!-- Bottom switcher of slider -->
-						<ul class="thumbnails">
-							<li class="span3">
-	                            <a class="thumbnail" id="carousel-selector-0">
-	                            	<img src="img/crooks-sm.jpg" alt="Shepherds' Crooks" width="170" height="100">
-	                            	<div class="sliderthumb-caption">
-	                                    <h4>Shepherds' Crooks</h4>
-                                    </div>
-	                            </a>
-							</li>
-							<li class="span3">
-	                            <a class="thumbnail" id="carousel-selector-1">
-	                            	<img src="img/thumbs-sm.jpg" alt="Thumb Sticks" width="170" height="100">
-	                            	<div class="sliderthumb-caption">
-	                                    <h4>Thumb Sticks</h4>
-                                    </div>
-	                            </a>
-							</li>
-							<li class="span3">
-	                            <a class="thumbnail" id="carousel-selector-2">
-	                                <img src="img/staffs-sm.jpg" alt="Staffs" width="170" height="100">
-	                                <div class="sliderthumb-caption">
-	                                    <h4>Staffs</h4>
-                                    </div>
-	                            </a>
-							</li>
-							<li class="span3">
-	                            <a class="thumbnail" id="carousel-selector-3">
-	                            	<img src="img/shorts-sm.jpg" alt="Short Sticks" width="170" height="100">
-	                            	<div class="sliderthumb-caption">
-	                                    <h4>Short Sticks</h4>
-                                    </div>
-	                            </a>
-							</li>
-						</ul>
+										
+				<div class="row hidden-phone" id="slider-thumbs">		
+					<!-- Bottom switcher of slider -->
+					<div class="span3">
+                        <a class="thumbnail" id="carousel-selector-0">
+                        	<img src="img/crooks-sm.jpg" alt="Shepherds' Crooks" width="170" height="100">
+                        	<div class="sliderthumb-caption">
+                                <h4>Shepherds' Crooks</h4>
+                            </div>
+                        </a>
+					</div>
+					<div class="span3">
+                        <a class="thumbnail" id="carousel-selector-1">
+                        	<img src="img/thumbs-sm.jpg" alt="Thumb Sticks" width="170" height="100">
+                        	<div class="sliderthumb-caption">
+                                <h4>Thumb Sticks</h4>
+                            </div>
+                        </a>
+					</div>
+					<div class="span3">
+                        <a class="thumbnail" id="carousel-selector-2">
+                            <img src="img/staffs-sm.jpg" alt="Staffs" width="170" height="100">
+                            <div class="sliderthumb-caption">
+                                <h4>Staffs</h4>
+                            </div>
+                        </a>
+					</div>
+					<div class="span3">
+                        <a class="thumbnail" id="carousel-selector-3">
+                        	<img src="img/shorts-sm.jpg" alt="Short Sticks" width="170" height="100">
+                        	<div class="sliderthumb-caption">
+                                <h4>Short Sticks</h4>
+                            </div>
+                        </a>
 					</div>
 				</div>
-
-                <p class="lead"><strong>Because our sticks are all unique we do not offer online shopping, but if you would like to buy a stick, please contact us to discuss your requirements so that we can help you select the ideal one for you.</strong></p>
+			
+				<div class="row disclaimer">
+					<div class="span12">
+	                	<p class="lead">Because our sticks are all unique we do not offer online shopping, but if you would like to buy a stick, please contact us to discuss your requirements so that we can help you select the ideal one for you.</p>
+					</div>
+				</div>
 			</div>
 		</section><!-- End Gallery Section -->
 		
