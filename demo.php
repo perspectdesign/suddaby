@@ -81,13 +81,16 @@
 						<p class="lead"><strong>Dominic Suddaby</strong> has been hand-making walking sticks and demonstrating his craft at country shows for over 25 years, supplying sticks to numerous UK and international customers.</p>
 						<p>Based in his workshop in rural Lincolnshire, Dominic collects, seasons and fashions a range of fine traditional sticks using natural materials such as rams’ horn, deer antler and natural wood formations such as gnarled roots and ‘twisties’.</p>
 						<p>The sticks fall into four broad categories: shepherds’ crooks, thumb sticks, staffs and short sticks with each stick being entirely unique due to the natural materials used. Dominic carefully matches each head and shank to produce balanced and beautiful pieces that feel good in the hand and are strong enough to withstand the rigours of country life.</p>
-						<div class="well">
-							<h4>Latest News</h4>
-							<p>Dominic has now been featured in Landscape magazine</p>
-							</div>
 					</div>
 					<div class="span6 alignright">
 						<img src="img/dominic.jpg" alt="Dominic Suddaby" width="400" height="533">
+						<div class="pull-right info">
+							<div class="well-intro well-circle">
+								<p>As featured in</p>
+								<p><a href="http://www.landscapemagazine.co.uk" target="new">Landscape magazine</a></p>
+								<p>Sept 2013</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -123,7 +126,7 @@
 								<div class="active item clearfix">
 									<div class="row-fluid clearfix">
 										<div class="span7 aligncenter">
-											<img src="http://placehold.it/450x300&text=Cutting or Harvesting" width="450">
+											<img src="img/harvesting.jpg" alt="Harvesting" width="450" height="300">
 										</div>
 										<div class="span5">
 											<h2>1. Cutting or Harvesting</h2>
@@ -149,7 +152,7 @@
 										</div>
 										<div class="span6">
 											<h2>3. Making the Stick</h2>
-											<p>This is where the stickmaker’s skill and experience really come to the fore.  Most sticks are made from two pieces, the head (handle) and the shank. Dominic will <strong>carefully match two pieces that complement each other</strong> and are balanced so that they look beautiful but also feel good in the hand. The <strong>shank will be straightened through steaming</strong>, and <strong>peeled</strong> or <strong>shaped</strong> as required. A <strong>ferrule (usually brass) is added</strong> to the end of each stick to save it from wear and tear.</p>
+											<p>This is where the stickmaker’s skill and experience really come to the fore.  Most sticks are made from two pieces, the head (handle) and the shank. Dominic will <strong>carefully match two pieces that complement each other</strong> and are balanced so that they look beautiful but also feel good in the hand. The <strong>shank is straightened through steaming</strong>, and <strong>peeled</strong> or <strong>shaped</strong> as required. A <strong>ferrule (usually brass) is added</strong> to the end of each stick to save it from wear and tear.</p>
 										</div>
 									</div>
 								</div>
@@ -177,7 +180,7 @@
 		<section class="gallery" id="gallery">
 			<div class="container">
 				<h2>Gallery</h2>
-				<p class="lead">There are four main categories, and within each category the shanks can be made from different woods, and be either ‘straight’ or ‘twisty’. The photos below show just some of the permutations (combinations) available. The height of the sticks varies but a long stick can easily be shortened to suit.  Sadly, we cannot do the reverse! The photos below show just some examples.</p>
+				<p class="lead">There are four main categories, and within each category the shanks can be made from different woods, and be either ‘straight’ or ‘twisty’. The height of the sticks varies but a long stick can easily be shortened to suit. The photos below show just some examples.</p>
                 <!-- Slider -->
                 <div class="row">
                 	<div class="span12" id="slider">
@@ -259,7 +262,10 @@
 			
 				<div class="row disclaimer">
 					<div class="span12">
-	                	<p class="lead">Because our sticks are all unique we do not offer online shopping, but if you would like to buy a stick, please contact us to discuss your requirements so that we can help you select the ideal one for you.</p>
+	                	<p class="lead">Because our sticks are all unique we do not offer online shopping, but if you would like to buy a stick, please contact us. We can then discuss your requirements and show you a selection of photographs to help you choose your ideal stick.</p>
+					</div>
+					<div class="aligncenter">
+						<a class="btn btn-large btn-gallery" type="button" href="#contact">Get in touch</a>
 					</div>
 				</div>
 			</div>
@@ -270,7 +276,7 @@
 			<div class="container">
 				<div class="intro">
 					<h2 class="italic">Sundries</h2>
-					<p class="lead">For anyone who would like to make their own stick, we can supply various component pieces, and for those who don’t have too much time to spare, Dominic has prepared some sticks that are ‘made’ but need finishing (that is the final sanding and varnishing). Please enquire if you are interested in buying any of the following materials.</p>
+					<p class="lead">For anyone who would like to make their own stick, we have a limited supply of component pieces, and for those who don’t have too much time to spare, Dominic has prepared some sticks that are ‘made’ but need finishing (that is the final sanding and varnishing). Please enquire if you are interested in buying any of the following materials.</p>
 					<div class="aligncenter">
 						<a class="btn btn-large btn-primary" type="button" href="#contact">Get in touch</a>
 					</div>
@@ -280,7 +286,7 @@
 						<div class="aligncenter">
 							<img src="img/sundries/shanks2.jpg" alt="Stick Shanks" width="200" height="200" class="img-circle">
 							<h3>Shanks</h3>
-							<p>(straight, twisty, hazel, ash, blackthorne)</p>
+							<p>(straight, twisty, hazel, ash, blackthorn)</p>
 						</div>
 					</div>
 					<div class="span3">
@@ -352,7 +358,7 @@
 					<div class="span3">
 						<div class="aligncenter">
 							<img src="img/sundries/antler.jpg" alt="Antler pieces" width="200" height="200" class="img-circle">
-							<h3>Miscellanaeous Antler pieces</h3>
+							<h3>Miscellaneous Antler pieces</h3>
 							<p>(full antlers to small tines)</p>
 						</div>
 					</div>
@@ -512,7 +518,7 @@
         	<div class="container">
         		<div class="row">
         			<div class="span6">
-        				<p class="accred">Images by Jane Rayner Photography / Neil Holmes Photography</p>
+        				<p class="accred">Images by Jane Rayner Photography / <br><a href="http://www.nh97.com/wp/" target="new">Neil Holmes Photography</a></p>
         			</div>
         			<div class="span6">
         				<p class="perspec">&copy; Copyright 2013 <a href="http://www.perspectivedesign.co.uk" target="new">Perspective Design</a></p>
