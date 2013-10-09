@@ -37,8 +37,13 @@
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  border: 5px solid @unripe;
+  border: 5px solid transparent;
 }
+
+.thumbnail > img:hover {
+  border: 5px solid @white;
+}
+
 .thumbnail .caption {
   padding: 9px;
   color: @gray;

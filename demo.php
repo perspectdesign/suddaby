@@ -83,14 +83,7 @@
 						<p>The sticks fall into four broad categories: shepherds’ crooks, thumb sticks, staffs and short sticks with each stick being entirely unique due to the natural materials used. Dominic carefully matches each head and shank to produce balanced and beautiful pieces that feel good in the hand and are strong enough to withstand the rigours of country life.</p>
 					</div>
 					<div class="span6 alignright">
-						<img src="img/dominic.jpg" alt="Dominic Suddaby" width="400" height="533">
-						<div class="pull-right info">
-							<div class="well-intro well-circle">
-								<p>As featured in</p>
-								<p><a href="http://www.landscapemagazine.co.uk" target="new">Landscape magazine</a></p>
-								<p>Sept 2013</p>
-							</div>
-						</div>
+						<img src="img/dominic-captioned.png" alt="Dominic Suddaby" width="400" height="623">
 					</div>
 				</div>
 			</div>
@@ -141,7 +134,7 @@
 											<p>The sticks are <strong>bundled and stored</strong> in a brick barn near the workshop. They remain here <strong>for two years to allow the wood to season.</strong></p>
 										</div>
 										<div class="span7 aligncenter">
-											<img src="http://placehold.it/450x300&text=Seasoning" width="450">
+											<img src="img/seasoning.jpg" alt="Seasoning" width="450" height="300">
 										</div>
 									</div>
 								</div>
@@ -163,7 +156,7 @@
 											<p>The stick is <strong>finished by hand</strong>, sanding and shaping it to give a smooth finish.  Sometimes stains are used to enhance and bring out the natural colours in the wood. Finally, it is <strong>given several coats of yacht varnish</strong> to ensure it is truly weatherproof.</p>
 										</div>
 										<div class="span7 aligncenter">
-											<img src="http://placehold.it/450x300&text=Finishing" width="450">
+											<img src="img/finishing.jpg" alt="Finishing" width="450" height="300">
 										</div>
 									</div>
 								</div>
@@ -223,12 +216,15 @@
 
 					</div>
 				</div> <!--/Slider-->
-										
+			</div>
+		
+		<div class="gallery-selector">
+			<div class="container">						
 				<div class="row hidden-phone" id="slider-thumbs">		
 					<!-- Bottom switcher of slider -->
 					<div class="span3">
                         <a class="thumbnail" id="carousel-selector-0">
-                        	<img src="img/crooks-sm.jpg" alt="Shepherds' Crooks" width="170" height="100">
+                        	<img src="img/gallery/crooks-sm.jpg" alt="Shepherds' Crooks" width="170" height="100">
                         	<div class="sliderthumb-caption">
                                 <h4>Shepherds' Crooks</h4>
                             </div>
@@ -236,7 +232,7 @@
 					</div>
 					<div class="span3">
                         <a class="thumbnail" id="carousel-selector-1">
-                        	<img src="img/thumbs-sm.jpg" alt="Thumb Sticks" width="170" height="100">
+                        	<img src="img/gallery/thumbs-sm.jpg" alt="Thumb Sticks" width="170" height="100">
                         	<div class="sliderthumb-caption">
                                 <h4>Thumb Sticks</h4>
                             </div>
@@ -244,7 +240,7 @@
 					</div>
 					<div class="span3">
                         <a class="thumbnail" id="carousel-selector-2">
-                            <img src="img/staffs-sm.jpg" alt="Staffs" width="170" height="100">
+                            <img src="img/gallery/staffs-sm.jpg" alt="Staffs" width="170" height="100">
                             <div class="sliderthumb-caption">
                                 <h4>Staffs</h4>
                             </div>
@@ -252,14 +248,18 @@
 					</div>
 					<div class="span3">
                         <a class="thumbnail" id="carousel-selector-3">
-                        	<img src="img/shorts-sm.jpg" alt="Short Sticks" width="170" height="100">
+                        	<img src="img/gallery/shorts-sm.jpg" alt="Short Sticks" width="170" height="100">
                         	<div class="sliderthumb-caption">
                                 <h4>Short Sticks</h4>
                             </div>
                         </a>
 					</div>
 				</div>
-			
+			</div>
+		</div>
+		
+		<div class="gallery-footer">
+			<div class="container">
 				<div class="row disclaimer">
 					<div class="span12">
 	                	<p class="lead">Because our sticks are all unique we do not offer online shopping, but if you would like to buy a stick, please contact us. We can then discuss your requirements and show you a selection of photographs to help you choose your ideal stick.</p>
@@ -269,6 +269,8 @@
 					</div>
 				</div>
 			</div>
+		</div>
+		
 		</section><!-- End Gallery Section -->
 		
 		<!-- Sundries Section -->
@@ -277,9 +279,6 @@
 				<div class="intro">
 					<h2 class="italic">Sundries</h2>
 					<p class="lead">For anyone who would like to make their own stick, we have a limited supply of component pieces, and for those who don’t have too much time to spare, Dominic has prepared some sticks that are ‘made’ but need finishing (that is the final sanding and varnishing). Please enquire if you are interested in buying any of the following materials.</p>
-					<div class="aligncenter">
-						<a class="btn btn-large btn-primary" type="button" href="#contact">Get in touch</a>
-					</div>
 				</div>
 				<div class="row">
 					<div class="span3">
@@ -291,8 +290,8 @@
 					</div>
 					<div class="span3">
 						<div class="aligncenter">
-							<img src="http://placehold.it/200x200&text=image" class="img-circle">
-							<h3>Ready made sticks</h3>
+							<img src="img/sundries/ready-made.jpg" alt="ready-made" width="200" height="200" class="img-circle">
+							<h3>Part-made sticks for finishing</h3>
 						</div>
 					</div>
 					<div class="span3">
@@ -362,6 +361,9 @@
 							<p>(full antlers to small tines)</p>
 						</div>
 					</div>
+					<div class="aligncenter">
+						<a class="btn btn-large btn-primary" type="button" href="#contact">Get in touch</a>
+					</div>
 				</div>
 			</div>
 		</section><!-- End Sundries Section -->
@@ -394,7 +396,7 @@
 						</ul>
 					</div>
 					<div class="span6 aligncenter">
-						<img src="img/making2.jpg" alt="Dominic Suddaby" width="300" height="350">
+						<img src="img/shows2.jpg" alt="Dominic Suddaby" width="300" height="350">
 					</div>
 			</div>
 		</section><!-- End of Shows Section -->
@@ -406,19 +408,31 @@
 				<div class="row">
 					<div class="span7">
 						<blockquote>
-							<p>Do tonx sunt assumenda, consequat fingerstache minim single-origin coffee pariatur street art pickled cillum. Truffaut cupidatat keytar scenester readymade.</p>
-							<small>John Smith <cite title="Source Title">Derbyshire</cite></small>
+							<p>I am writing to thank you for sending the walking stick in time for my grandfather’s birthday. He is over the moon with it and although 75 years old he still walks our two dogs up and around the mountain every day. And, believe me, a walking stick is vital on the slippery slopes. I would also like to stress that it is great to be able to have a proper walking stick made by a craftsman – not one of those shiny things or, even worse, those soul-less metal extendable things!</p>
+							<small>L Jones, <cite title="Source Title">Wales</cite></small>
 						</blockquote>
 						
 						<blockquote>
-							<p>Do tonx sunt assumenda, consequat fingerstache minim single-origin coffee pariatur street art pickled cillum. Truffaut cupidatat keytar scenester readymade.</p>
-							<small>John Smith <cite title="Source Title">Derbyshire</cite></small>
+							<p>I have just received the walking stick and I am absolutely delighted with it! It is perfect in every way, thank you so much. I shall recommend you to others.</p>
+							<small>K. Pirkis, <cite title="Source Title">Suffolk</cite></small>
 						</blockquote>
 						
 						<blockquote>
-							<p>Do tonx sunt assumenda, consequat fingerstache minim single-origin coffee pariatur street art pickled cillum. Truffaut cupidatat keytar scenester readymade.</p>
-							<small>John Smith <cite title="Source Title">Derbyshire</cite></small>
+							<p>Thank you for the sticks which have been a success and a surprise.   Everyone was very happy to receive such unusual objects and I think I will order a few more next year.</p>
+							<small>E Lepic, <cite title="Source Title">France</cite></small>
 						</blockquote>
+						
+						<blockquote>
+							<p>Thank you for such a beautiful walking stick.  My husband was delighted with the gift, particularly as it has already caused much comment among his friends, and is also thoroughly sturdy over rough ground.</p>
+							<small>S MacDonald, <cite title="Source Title">Lincolnshire</cite></small>
+						</blockquote>
+						
+						<blockquote>
+							<p>Your walking sticks are so beautiful.</p>
+							<small>Henley Show Manager</small>
+						</blockquote>
+						
+						
 					</div>
 					<div class="span5 aligncenter">
 						<img src="img/workshop.jpg" alt="Workshop" width="300" height="300">
@@ -518,7 +532,7 @@
         	<div class="container">
         		<div class="row">
         			<div class="span6">
-        				<p class="accred">Images by Jane Rayner Photography / <br><a href="http://www.nh97.com/wp/" target="new">Neil Holmes Photography</a></p>
+        				<p class="accred">Images by<br><span class="white">Jane Rayner Photography / </span><a href="http://www.nh97.com/wp/" target="new">Neil Holmes Photography</a></p>
         			</div>
         			<div class="span6">
         				<p class="perspec">&copy; Copyright 2013 <a href="http://www.perspectivedesign.co.uk" target="new">Perspective Design</a></p>
