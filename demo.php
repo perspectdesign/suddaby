@@ -141,7 +141,7 @@
 								<div class="item">
 									<div class="row-fluid clearfix">
 										<div class="span6 aligncenter">
-											<img src="img/making.jpg" alt="Making the Stick" width="400" height="300">
+											<img class="sizefix" src="img/making.jpg" alt="Making the Stick" width="400" height="300">
 										</div>
 										<div class="span6">
 											<h2>3. Making the Stick</h2>
