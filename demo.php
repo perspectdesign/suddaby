@@ -520,7 +520,7 @@
 						    </div>
 						</form><!-- End of Contact Form -->
 					</div>
-					<div class="span4">
+					<div class="span4 sign-image">
 						<img class="sign" src="img/shows.jpg" alt="shows" width="300" height="420">
 					</div>	
 				</div>
