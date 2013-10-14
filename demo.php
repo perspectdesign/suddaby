@@ -372,7 +372,7 @@
 		<section class="shows" id="shows">
 			<div class="container">
 				<h2 class="italic">Shows</h2>
-				<p class="lead">Dominic has been demonstrating his craft at country shows and game fairs for over 25 years.These are just some of the shows he has attended.</p>
+				<p class="lead">Dominic has been demonstrating his craft at country shows and game fairs for over 25 years. These are just some of the shows he has attended.</p>
 				<div class="row">
 					<div class="span6">
 						<ul>
