@@ -100,19 +100,19 @@
 							<ul class="carousel-indicators aligncenter row-fluid">
 								<li data-target="#process-slider" data-slide-to="0" class="active span3">
 									<div class="round bg-color blue"><span>1</span></div>
-									<div class="desc">Cutting or Harvesting</div>
+									<div class="desc hidden-phone">Cutting or Harvesting</div>
 								</li>
 								<li data-target="#process-slider" data-slide-to="1" class="span3">
 									<div class="round bg-color blue">2</div>
-									<div class="desc">Seasoning</div>
+									<div class="desc hidden-phone">Seasoning</div>
 								</li>
 								<li data-target="#process-slider" data-slide-to="2" class="span3">
 									<div class="round bg-color blue">3</div>
-									<div class="desc">Making the Stick</div>
+									<div class="desc hidden-phone">Making the Stick</div>
 								</li>
 								<li data-target="#process-slider" data-slide-to="3" class="span3">
 									<div class="round bg-color blue">4</div>
-									<div class="desc">Finishing</div>
+									<div class="desc hidden-phone">Finishing</div>
 								</li>
 							</ul>
 							<div class="carousel-inner clearfix">
