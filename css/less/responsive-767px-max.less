@@ -98,6 +98,35 @@
 		width: 25%;
 		padding: 0 0 10px 0;
 	}
+	
+	// fix gallery
+	#myCarousel a.carousel-control {
+	  width: 24px;
+	  height: 24px;
+	  top: auto;
+	  bottom: -50px;
+	  border: none;
+	  text-indent: -9999px;
+	  opacity: 0.2;
+	  filter: alpha(opacity=20);
+	}
+	#myCarousel a.carousel-control:hover {
+	  opacity: 0.6;
+	  filter: alpha(opacity=60);
+	}
+	#myCarousel a.carousel-control.left {
+	  left: 0;
+	  background: url(../img/left.png);
+	}
+	#myCarousel a.carousel-control.right {
+	  right: 0;
+	  background: url(../img/right.png);
+	}
+	
+	.gallery #carousel-text h2 {
+		text-align: center;
+	}
+
   
   // TYPOGRAPHY
   // ----------

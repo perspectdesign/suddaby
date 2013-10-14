@@ -218,9 +218,9 @@
 				</div> <!--/Slider-->
 			</div>
 		
-		<div class="gallery-selector">
+		<div class="gallery-selector hidden-phone">
 			<div class="container">						
-				<div class="row hidden-phone" id="slider-thumbs">		
+				<div class="row" id="slider-thumbs">		
 					<!-- Bottom switcher of slider -->
 					<div class="span3">
                         <a class="thumbnail" id="carousel-selector-0">
