@@ -395,7 +395,7 @@
 							<li>Suffolk show</li>
 						</ul>
 					</div>
-					<div class="span6 aligncenter">
+					<div class="span6 alignright">
 						<img src="img/shows2.jpg" alt="Dominic Suddaby" width="300" height="350">
 					</div>
 			</div>
@@ -434,7 +434,7 @@
 						
 						
 					</div>
-					<div class="span5 aligncenter">
+					<div class="span5 alignright">
 						<img src="img/workshop.jpg" alt="Workshop" width="300" height="300">
 					</div>
 			</div>
@@ -520,7 +520,7 @@
 						    </div>
 						</form><!-- End of Contact Form -->
 					</div>
-					<div class="span4 sign-image">
+					<div class="span4 alignright sign-image">
 						<img class="sign" src="img/shows.jpg" alt="shows" width="300" height="420">
 					</div>	
 				</div>
