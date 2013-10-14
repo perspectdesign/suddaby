@@ -47,7 +47,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </a>
-                    <a class="brand aligncenter" href="#"><h1><span class="italic">Dominic Suddaby</span><br><small>Fine Hand Made Walking Sticks</small></h1></a>
+                    <a class="brand aligncenter" href="#"><h1><span class="italic branditalic">Dominic Suddaby</span><br><small>Fine Hand Made Walking Sticks</small></h1></a>
                     <div class="nav-collapse collapse pull-right">
                         <ul class="nav">
                             <li class="menu1 active"><a href="#home">Home</a></li>
