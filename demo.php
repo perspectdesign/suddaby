@@ -42,13 +42,13 @@
 
             <div class="navbar-inner">
                 <div class="container">
+                    <a class="brand aligncenter" href="#"><h1><span class="italic branditalic">Dominic Suddaby</span><br><small>Fine Hand Made Walking Sticks</small></h1></a>
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </a>
-                    <a class="brand aligncenter" href="#"><h1><span class="italic branditalic">Dominic Suddaby</span><br><small>Fine Hand Made Walking Sticks</small></h1></a>
-                    <div class="nav-collapse collapse pull-right">
+                    <div class="nav-collapse collapse align-right">
                         <ul class="nav">
                             <li class="menu1 active"><a href="#home">Home</a></li>
                             <li><a href="#process">The Process</a></li>
