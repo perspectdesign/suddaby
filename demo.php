@@ -285,7 +285,7 @@
 						<div class="aligncenter">
 							<img src="img/sundries/shanks2.jpg" alt="Stick Shanks" width="200" height="200" class="img-circle">
 							<h3>Shanks</h3>
-							<p>(straight, twisty, hazel, ash, blackthorn)</p>
+							<p class="sub">(straight, twisty, hazel, ash, blackthorn)</p>
 						</div>
 					</div>
 					<div class="span3">
@@ -324,7 +324,7 @@
 						<div class="aligncenter">
 							<img src="img/sundries/wooden-handles2.jpg" alt="Wooden handles" width="200" height="200" class="img-circle">
 							<h3>Wooden handles</h3>
-							<p>(turned)</p>
+							<p class="sub">(turned)</p>
 						</div>
 					</div>
 					<div class="span3">
@@ -351,14 +351,14 @@
 						<div class="aligncenter">
 							<img src="img/sundries/thumb-heads.jpg" alt="Thumb heads" width="200" height="200" class="img-circle">
 							<h3>Thumb heads</h3>
-							<p>(natural wood & antler)</p>
+							<p class="sub">(natural wood & antler)</p>
 						</div>
 					</div>
 					<div class="span3">
 						<div class="aligncenter">
 							<img src="img/sundries/antler.jpg" alt="Antler pieces" width="200" height="200" class="img-circle">
 							<h3>Miscellaneous Antler pieces</h3>
-							<p>(full antlers to small tines)</p>
+							<p class="sub">(full antlers to small tines)</p>
 						</div>
 					</div>
 					<div class="aligncenter">

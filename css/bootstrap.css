@@ -926,8 +926,9 @@ section.sundries{background:#69543c}
 .sundries h2.italic{font-family:'Dancing Script',cursive;color:#fff}
 section.sundries .intro{padding-bottom:50px}
 section.sundries p{text-align:center;color:#fff}
-section.sundries h3{color:#fff}
+section.sundries h3{color:#fff;line-height:30px;margin-bottom:0}
 section.sundries p.lead{text-align:justify}
+section.sundries p.sub{font-size:.9em}
 section.feedback{background:#b2bb82}
 .feedback h2.italic{font-family:'Dancing Script',cursive;color:#fff}
 .feedback blockquote,.feedback blockquote small{color:#fff}
