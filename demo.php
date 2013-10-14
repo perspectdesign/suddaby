@@ -486,7 +486,7 @@
 					<div class="span8">
 						<div class="row">
 							<div class="span6 offset2">
-								<h2>Send Us a Message</h2>
+								<h2 class="sendus">Send Us a Message</h2>
 							</div>
 						</div>
 						<form id="myform" class="contact_form" action="<?php echo basename(__FILE__); ?>" method="post" name="contact_form">
@@ -521,7 +521,7 @@
 						</form><!-- End of Contact Form -->
 					</div>
 					<div class="span4">
-						<img src="img/shows.jpg" alt="shows" width="300" height="420">
+						<img class="sign" src="img/shows.jpg" alt="shows" width="300" height="420">
 					</div>	
 				</div>
 			</div>	
