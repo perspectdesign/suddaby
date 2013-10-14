@@ -123,7 +123,7 @@
 										</div>
 										<div class="span5">
 											<h2>1. Cutting or Harvesting</h2>
-											<p>During the winter months Dominic <strong>scours local woodlands</strong> for suitable saplings and ‘formations’, coppicing carefully to ensure sustainability. He likes to work with Hazel, Blackthorn, Ash and Holly, and keeps a particular look-out for what he calls <strong>“twisties”</strong> – these are spiral sticks created when Honeysuckle grows around a young sapling.</p>
+											<p>During the winter months Dominic scours local woodlands for suitable saplings and ‘formations’, coppicing carefully to ensure sustainability. He likes to work with Hazel, Blackthorn, Ash and Holly, and keeps a particular look-out for what he calls <strong>“twisties”</strong> – these are spiral sticks created when Honeysuckle grows around a young sapling.</p>
 										</div>
 									</div>
 								</div>
@@ -131,7 +131,7 @@
 									<div class="row-fluid clearfix">
 										<div class="span5">
 											<h2>2. Seasoning</h2>
-											<p>The sticks are <strong>bundled and stored</strong> in a brick barn near the workshop. They remain here <strong>for two years to allow the wood to season.</strong></p>
+											<p>The sticks are bundled and stored in a brick barn near the workshop. They remain here for two years to allow the wood to season.</p>
 										</div>
 										<div class="span7 aligncenter">
 											<img src="img/seasoning.jpg" alt="Seasoning" width="450" height="300">
@@ -145,7 +145,7 @@
 										</div>
 										<div class="span6">
 											<h2>3. Making the Stick</h2>
-											<p>This is where the stickmaker’s skill and experience really come to the fore.  Most sticks are made from two pieces, the head (handle) and the shank. Dominic will <strong>carefully match two pieces that complement each other</strong> and are balanced so that they look beautiful but also feel good in the hand. The <strong>shank is straightened through steaming</strong>, and <strong>peeled</strong> or <strong>shaped</strong> as required. A <strong>ferrule (usually brass) is added</strong> to the end of each stick to save it from wear and tear.</p>
+											<p>This is where the stickmaker’s skill and experience really come to the fore.  Most sticks are made from two pieces, the head (handle) and the shank. Dominic will carefully match two pieces that complement each other and are balanced so that they look beautiful but also feel good in the hand. The shank is straightened through steaming, and peeled or shaped as required. A ferrule (usually brass) is added to the end of each stick to save it from wear and tear.</p>
 										</div>
 									</div>
 								</div>
@@ -153,7 +153,7 @@
 									<div class="row-fluid clearfix">
 										<div class="span5">
 											<h2>4. Finishing</h2>
-											<p>The stick is <strong>finished by hand</strong>, sanding and shaping it to give a smooth finish.  Sometimes stains are used to enhance and bring out the natural colours in the wood. Finally, it is <strong>given several coats of yacht varnish</strong> to ensure it is truly weatherproof.</p>
+											<p>The stick is finished by hand, sanding and shaping it to give a smooth finish.  Sometimes stains are used to enhance and bring out the natural colours in the wood. Finally, it is given several coats of yacht varnish to ensure it is truly weatherproof.</p>
 										</div>
 										<div class="span7 aligncenter">
 											<img src="img/finishing.jpg" alt="Finishing" width="450" height="300">
