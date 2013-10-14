@@ -119,7 +119,7 @@
 								<div class="active item clearfix">
 									<div class="row-fluid clearfix">
 										<div class="span7 aligncenter">
-											<img src="img/harvesting.jpg" alt="Harvesting" width="450" height="300">
+											<img class="sizefix" src="img/harvesting.jpg" alt="Harvesting" width="450" height="300">
 										</div>
 										<div class="span5">
 											<h2>1. Cutting or Harvesting</h2>
@@ -134,7 +134,7 @@
 											<p>The sticks are bundled and stored in a brick barn near the workshop. They remain here for two years to allow the wood to season.</p>
 										</div>
 										<div class="span7 aligncenter">
-											<img src="img/seasoning.jpg" alt="Seasoning" width="450" height="300">
+											<img class="sizefix" src="img/seasoning.jpg" alt="Seasoning" width="450" height="300">
 										</div>
 									</div>
 								</div>
@@ -156,7 +156,7 @@
 											<p>The stick is finished by hand, sanding and shaping it to give a smooth finish.  Sometimes stains are used to enhance and bring out the natural colours in the wood. Finally, it is given several coats of yacht varnish to ensure it is truly weatherproof.</p>
 										</div>
 										<div class="span7 aligncenter">
-											<img src="img/finishing.jpg" alt="Finishing" width="450" height="300">
+											<img class="sizefix" src="img/finishing.jpg" alt="Finishing" width="450" height="300">
 										</div>
 									</div>
 								</div>
