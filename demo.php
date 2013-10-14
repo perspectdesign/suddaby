@@ -123,7 +123,7 @@
 										</div>
 										<div class="span5">
 											<h2>1. Cutting or Harvesting</h2>
-											<p>During the winter months Dominic scours local woodlands for suitable saplings and ‘formations’, coppicing carefully to ensure sustainability. He likes to work with Hazel, Blackthorn, Ash and Holly, and keeps a particular look-out for what he calls <strong>“twisties”</strong> – these are spiral sticks created when Honeysuckle grows around a young sapling.</p>
+											<p>During the winter months Dominic scours local woodlands for suitable saplings and ‘formations’, coppicing carefully to ensure sustainability. He likes to work with Hazel, Blackthorn, Ash and Holly, and keeps a particular look-out for what he calls “twisties” – these are spiral sticks created when Honeysuckle grows around a young sapling.</p>
 										</div>
 									</div>
 								</div>
