@@ -32,6 +32,7 @@ function isBot() {
 }
 
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
+	alert ($test);return false;
 	if (isBot() !== false)
 		$error_msg[] = "No bots please! UA reported as: ".$_SERVER['HTTP_USER_AGENT'];
 

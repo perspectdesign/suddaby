@@ -1,5 +1,3 @@
-<?php include 'form.php'; ?>
-
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -21,6 +19,60 @@
         <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+	    <script src="js/scripts-ck.js"></script>
+	    <script src="http://malsup.github.com/jquery.form.js"></script>
+
+	    
+	    <script> 
+	        // wait for the DOM to be loaded 
+	        $(document).ready(function() {
+	            // bind 'myForm' and provide a simple callback function 
+	            $('#myForm').ajaxForm(function() {
+	            	$('#myForm').html("<div id='message'>Message sent</div>");  
+				    $('#message').html("<h3>Contact Form Submitted!</h3>")
+				    .append("<p>We will be in touch soon.</p>");
+					// Display popup message to test form submission
+	                alert("Thank you for your comment!"); 
+	            });
+	            
+            	// Fade images in
+			    $('.container').bind('inview', function(event, visible) {
+			      if (visible) {
+			        $(this).stop().animate({ opacity: 1 });
+			      } else {
+			        $(this).stop().animate({ opacity: 0 });
+			      }
+			    });
+			    
+				// Process Slider
+			    $('#process-slider').carousel({
+			            interval: false
+			    });
+				
+				// Gallery code
+			    $('#myCarousel').carousel({
+			                interval: false
+			        });
+			 
+			    $('#carousel-text').html($('#slide-content-0').html());
+			 
+			    //Handles the carousel thumbnails
+			    $('[id^=carousel-selector-]').click( function(){
+			        var id_selector = $(this).attr("id");
+			        var id = id_selector.substr(id_selector.length -1);
+			        var id = parseInt(id);
+			        $('#myCarousel').carousel(id);
+			    });
+			 
+			    // When the carousel slides, auto update the text
+			    $('#myCarousel').on('slid', function (e) {
+			        var id = $('.item.active.gallery').data('slide-number');
+			        $('#carousel-text').html($('#slide-content-'+id).html());
+			    });
+	        }); 
+	    </script>
+
     </head>
     <body data-spy="scroll" data-target=".navbar">
         <!--[if lt IE 7]>
@@ -61,14 +113,6 @@
                     </div><!--/.nav-collapse -->
                 </div>
             </div>
-        <?php
-			if (!empty($error_msg)) {
-				echo '<div class="container message"><div class="alert alert-error"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Error: </strong> '. implode("<br />", $error_msg) . "</div></div>";
-			}
-			if ($result != NULL) {
-				echo '<div class="container message"><div class="alert alert-success"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Success: </strong>'. $result . "</div></div>";
-			}
-		?>
         </div>
 
 		<!-- Introduction Section -->
@@ -483,39 +527,38 @@
 			<div class="container">
 				<div class="row">
 					<!-- Contact Form -->
-					<div class="span8">
+					<div class="span8 contact_form">
 						<div class="row">
 							<div class="span6 offset2">
 								<h2 class="sendus">Send Us a Message</h2>
 							</div>
 						</div>
-						<form id="myform" class="contact_form" action="<?php echo basename(__FILE__); ?>" method="post" name="contact_form">
-							<noscript>
+						<form id="myForm" class="contact_form" name="contact_form" action="comment.php" method="post"> 
+						    <noscript>
 								<p><input type="hidden" name="nojs" id="nojs" /></p>
 							</noscript>
 							<div class="row">
 							    <label class="control-label span2" for="name">Name:</label>
 							    <div class="controls span6">
-									<input data-toggle="tooltip" title="first tooltip" type="text" name="name" id="name" value="<?php get_data("name"); ?>" placeholder="John Doe" required />
+									<input data-toggle="tooltip" title="Required Field" type="text" name="name" id="name" value="" placeholder="John Doe" required />
 								</div>
 							</div>
 							<div class="row">
 								<label class="control-label span2" for="email">E-mail:</label>
 							   	<div class="controls span6">
-							   		<input type="email" name="email" id="email" value="<?php get_data("email"); ?>" placeholder="john_doe@example.com" data-toggle="popover" title="" data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title" required />
-							   		<div class="popover fade right in"><div class="arrow"></div><h3 class="popover-title">A Title</h3><div class="popover-content">And here's some amazing content. It's very engaging. right?</div></div>
-							        <!--<span class="form_hint">Proper format "name@something.com"</span>-->
+							   		<input type="email" name="email" id="email" value="" placeholder="john_doe@example.com" data-toggle="popover" title="" data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title" required />
 							   	</div>
 							</div>
 							<div class="row">
 							   	<label class="control-label span2" for="comments">Comments:</label>
 							   	<div class="controls span6">
-							   		<textarea name="comments" id="comments" rows="8" required ><?php get_data("comments"); ?></textarea>
+							   		<textarea name="comments" id="comments" rows="8" required ></textarea>
 							   	</div>
 						    </div>
-							<div class="row">
+						    <div class="row">
 								<div class="controls span2 offset2">
 									<button id="submit" type="submit" class="btn btn-submit" name="submit" value="submit" <?php if (isset($disable) && $disable === true) echo ' disabled="disabled"'; ?>>Send Message</button>
+									<div class="hide" id="status">Thank you. Your message has been sent</div>
 								</div>
 						    </div>
 						</form><!-- End of Contact Form -->
@@ -540,9 +583,7 @@
         		</div>
         	</div>
         </footer><!-- End Footer Section -->
-        
-        <script src="js/scripts-ck.js"></script>
-
+		
 		<!-- Google Analytics Code -->
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];

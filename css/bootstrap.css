@@ -963,6 +963,9 @@ footer p.accred{text-align:left;font-size:16.8px}
 footer a{color:#fff}
 footer a:hover{color:#9c8964}
 .white{color:#fff}
+.show{display:block}
+.hide{display:none}
+#message{text-align:center}
 .align-right{float:right}
 .pull-left{float:left}
 .hide{display:none}
