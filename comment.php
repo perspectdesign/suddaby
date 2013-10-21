@@ -6,7 +6,7 @@ $name = $_POST["name"];
 $email = $_POST["email"];
 $comments = $_POST["comments"];
 
-$yourEmail = "james@perspectivedesign.co.uk"; // the email address you wish to receive these mails through
+$yourEmail = "info@dominicsuddaby.co.uk"; // the email address you wish to receive these mails through
 $yourWebsite = "Dominic Suddaby Walking Sticks"; // the name of your website
 $thanksPage = ''; // URL to 'thanks for sending mail' page; leave empty to keep message on the same page 
 $maxPoints = 4; // max points a person can hit before it refuses to submit - recommend 4

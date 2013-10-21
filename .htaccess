@@ -238,9 +238,13 @@ AddDefaultCharset utf-8
 # Option 1: rewrite www.example.com → example.com
 
 <IfModule mod_rewrite.c>
-    RewriteCond %{HTTPS} !=on
-    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-    RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
+# Original boilerplate rewrites
+#    RewriteCond %{HTTPS} !=on
+#    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+#    RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
+# Vidahost recommended rewrites
+	 RewriteCond %{HTTP_HOST} !^www\.dominicsuddaby.co.uk [NC]
+	 RewriteRule ^ http%1://www.dominicsuddaby.co.uk/$1 [R=301,L]
 </IfModule>
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

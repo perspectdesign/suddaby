@@ -475,6 +475,7 @@
 					<div class="span6 alignright">
 						<img src="img/shows2.jpg" alt="Dominic Suddaby" width="300" height="350">
 					</div>
+				</div>
 			</div>
 		</section><!-- End of Shows Section -->
 
@@ -508,12 +509,11 @@
 							<p>Your walking sticks are so beautiful.</p>
 							<small>Henley Show Manager</small>
 						</blockquote>
-						
-						
 					</div>
 					<div class="span5 alignright">
 						<img src="img/workshop.jpg" alt="Workshop" width="300" height="300">
 					</div>
+				</div>
 			</div>
 		</section><!-- End Feedback Section -->
 		
