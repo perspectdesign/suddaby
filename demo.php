@@ -127,7 +127,7 @@
 
             <div class="navbar-inner">
                 <div class="container">
-                    <a class="brand aligncenter" href="#"><h1><span class="italic branditalic">Dominic Suddaby</span><br><small>Fine Hand Made Walking Sticks</small></h1></a>
+                    <a class="brand aligncenter" href="index.php"><h1><span class="italic branditalic">Dominic Suddaby</span><br><small>Fine Hand Made Walking Sticks</small></h1></a>
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
