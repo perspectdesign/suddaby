@@ -7,7 +7,6 @@ $thanksPage = ''; // URL to 'thanks for sending mail' page; leave empty to keep 
 $maxPoints = 4; // max points a person can hit before it refuses to submit - recommend 4
 $requiredFields = "name,email,comments"; // names of the fields you'd like to be required as a minimum, separate each field with a comma
 
-
 // DO NOT EDIT BELOW HERE
 $error_msg = array();
 $result = null;
@@ -32,8 +31,7 @@ function isBot() {
 }
 
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
-	alert ($test);return false;
-	if (isBot() !== false)
+ 	if (isBot() !== false)
 		$error_msg[] = "No bots please! UA reported as: ".$_SERVER['HTTP_USER_AGENT'];
 
 	// lets check a few things - not enough to trigger an error on their own, but worth assigning a spam score.. 
@@ -72,8 +70,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
 	if (!empty($_POST['name']) && !preg_match("/^[a-zA-Z-'\s]*$/", stripslashes($_POST['name'])))
 		$error_msg[] = "The name field must not contain special characters.\r\n";
-	if (!empty($_POST['email']) && !preg_match('/^([a-z0-9])(([-a-z0-9._])*([a-z0-9]))*\@([a-z0-9])(([a-z0-9-])*([a-z0-9]))+' . '(\.([a-z0-9])([-a-z0-9_-])?([a-z0-9])+)+$/i', strtolower($_POST['email'])))
-		$error_msg[] = "That is not a valid e-mail address.\r\n";
+	//if (!empty($_POST['email']) && !preg_match('/^([a-z0-9])(([-a-z0-9._])*([a-z0-9]))*\@([a-z0-9])(([a-z0-9-])*([a-z0-9]))+' . '(\.([a-z0-9])([-a-z0-9_-])?([a-z0-9])+)+$/i', strtolower($_POST['email'])))
+		//$error_msg[] = "That is not a valid e-mail address.\r\n";
 	if (!empty($_POST['url']) && !preg_match('/^(http|https):\/\/(([A-Z0-9][A-Z0-9_-]*)(\.[A-Z0-9][A-Z0-9_-]*)+)(:(\d+))?\/?/i', $_POST['url']))
 		$error_msg[] = "Invalid website url.\r\n";
 

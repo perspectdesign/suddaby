@@ -22,20 +22,53 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
 	    <script src="js/scripts-ck.js"></script>
 	    <script src="http://malsup.github.com/jquery.form.js"></script>
-
 	    
 	    <script> 
+	        // Success message
+	        function successMessage() {
+		        // Remove previous error message
+		        $('#error-message').addClass('hide');
+		        
+		        // Display the success message
+		        $('#success-message').removeClass('hide');
+	        }
+	        
+	        // Error message
+	        function errorMessage() {
+	        	// Remove previous success message
+		        $('#success-message').addClass('hide');
+
+		        // Display the success message
+		        $('#error-message').removeClass('hide');
+	        }
+	        
 	        // wait for the DOM to be loaded 
 	        $(document).ready(function() {
-	            // bind 'myForm' and provide a simple callback function 
-	            $('#myForm').ajaxForm(function() {
-	            	$('#myForm').html("<div id='message'>Message sent</div>");  
-				    $('#message').html("<h3>Contact Form Submitted!</h3>")
-				    .append("<p>We will be in touch soon.</p>");
-					// Display popup message to test form submission
-	                alert("Thank you for your comment!"); 
-	            });
-	            
+			    // Set options
+			    var options = {
+				    clearForm: true,
+				    success: successMessage,
+				    error: errorMessage
+			    };
+			    
+			    // Bind form using 'ajaxForm' 
+				$('#myForm').submit(function() { 
+                	// Handle error messages
+					$(this).ajaxSubmit(options);
+					// Return false to prevent normal form submission
+					return false;
+				});
+				
+				// Remove success message using close button
+				$('#success-message').click( function() {
+					$('#success-message').addClass('hide');		
+				});
+				
+				// Remove error message using close button
+				$('#error-message').click( function() {
+					$('#error-message').addClass('hide');		
+				});
+	                       
             	// Fade images in
 			    $('.container').bind('inview', function(event, visible) {
 			      if (visible) {
@@ -556,12 +589,25 @@
 							   	</div>
 						    </div>
 						    <div class="row">
-								<div class="controls span2 offset2">
+								<div class="controls span6 offset2">
 									<button id="submit" type="submit" class="btn btn-submit" name="submit" value="submit" <?php if (isset($disable) && $disable === true) echo ' disabled="disabled"'; ?>>Send Message</button>
-									<div class="hide" id="status">Thank you. Your message has been sent</div>
 								</div>
 						    </div>
 						</form><!-- End of Contact Form -->
+						
+						<!-- Success / Error messages -->
+						<div class="row">
+							<div class="span6 offset2">
+								<div id="success-message" class="alert alert-success hide">
+									<button id="success-close" type="button" class="close">&times;</button>
+									<strong>Thankyou!</strong> Your message has been successfully sent.
+								</div>
+								<div id="error-message" class="alert alert-error hide">
+									<button type="button" class="close" data-dismiss="alert">&times;</button>
+									<strong>Oh no!</strong> There was an error sending your message. Please try again later.
+								</div>
+							</div>
+						</div>
 					</div>
 					<div class="span4 alignright sign-image">
 						<img class="sign" src="img/shows.jpg" alt="shows" width="300" height="420">
