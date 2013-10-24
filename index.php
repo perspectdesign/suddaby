@@ -8,7 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         
         <link rel="author" href="humans.txt" />
-        <meta name="robots" CONTENT="NOINDEX, NOFOLLOW">
+        <meta name="robots" CONTENT="INDEX, FOLLOW">
          
         <title>Dominic Suddaby Fine Hand Made Walking Sticks</title>
         <meta name="description" content="Dominic Suddaby has been hand-making walking sticks and demonstrating his craft at country shows for over 25 years. Based in his workshop in rural Lincolnshire.">
@@ -492,7 +492,7 @@
 						
 						<blockquote>
 							<p>I have just received the walking stick and I am absolutely delighted with it! It is perfect in every way, thank you so much. I shall recommend you to others.</p>
-							<small>K. Pirkis, <cite title="Source Title">Suffolk</cite></small>
+							<small>K Pirkis, <cite title="Source Title">Suffolk</cite></small>
 						</blockquote>
 						
 						<blockquote>
@@ -632,7 +632,7 @@
 		
 		<!-- Google Analytics Code -->
         <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            var _gaq=[['_setAccount','UA-45134270-1'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src='//www.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
